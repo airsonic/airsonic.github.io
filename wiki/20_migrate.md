@@ -13,8 +13,8 @@ Install Libresonic as described in the [install wiki](/wiki/install).
 
 ### Migrate to Libresonic
 
-After installation of Libresonic, the database needs to be migrated. In preperation for that, stop the Libresonic service :
-  * Using Tomcat :
+After installation of Libresonic, the database needs to be migrated. In preperation for that, stop the Libresonic service:
+  * Using Tomcat:
 
   ```
   sudo systemctl stop tomcat8
@@ -25,7 +25,7 @@ After installation of Libresonic, the database needs to be migrated. In preperat
   sudo systemctl stop libresonic.service
   ```
 
-If you ran Subsonic before, your data will be (by default) stored in `/var/subsonic`. Assuming you did not use Libresonic before, we will delete all data from Libresonic :
+If you ran Subsonic before, your data will be (by default) stored in `/var/subsonic`. Assuming you did not use Libresonic before, we will delete all data from Libresonic:
 
 > WARNING: Deletes all Libresonic data
 ```
@@ -47,8 +47,8 @@ sudo mv /var/libresonic/db/subsonic.properties /var/libresonic/db/libresonic.pro
 sudo mv /var/libresonic/db/subsonic.script /var/libresonic/db/libresonic.script
 ```
 
-Then start Libresonic service again :
-* Using Tomcat :
+Then start Libresonic service again:
+* Using Tomcat:
 
 ```
 sudo systemctl start tomcat8
@@ -59,10 +59,10 @@ sudo systemctl start tomcat8
 sudo systemctl start libresonic.service
 ```
 
-Your old settings will still be there. **If you wish**, you can delete subsonic data :
+Your old settings will still be there. **If you wish**, you can delete subsonic data:
 
 ```
 sudo rm -r /var/subsonic
 ```
 
-Done !
+Done!
