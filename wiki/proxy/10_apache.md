@@ -26,10 +26,21 @@ You will need to make a couple of changes in the configuration file :
 * Replace `exemple.com` with your own domain name.
 * Change `/libresonic` following your libresonic server path.
 * Change `http://127.0.0.1:4040/libresonic` following you libresonic server location, port and path.
+> Note that you could only add ProxyPass and ProxyPassReverse lines to your existing configuration :
+```apache
+ProxyPass         /libresonic http://127.0.0.1:4040/libresonic
+ProxyPassReverse  /libresonic http://127.0.0.1:4040/libresonic
+```
 
 Activate the host :
 ```
 sudo a2ensite libresonic.conf
+```
+
+Activate apache2 proxy module :
+
+```
+sudo a2enmod proxy
 ```
 
 Restart the Apache2 service :
