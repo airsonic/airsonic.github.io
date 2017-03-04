@@ -45,6 +45,19 @@ You will need to make a couple of changes in the configuration file :
 * Be sure to set the right path to your `cert.pem` and `key.pem` files.
 * Change `/libresonic` following your libresonic server path.
 * Change `http://127.0.0.1:4040` following you libresonic server location and port.
+> Note that you could only add the "location /libresonic" section to your existing configuration :
+```nginx
+# Proxy to the Libresonic server
+location /libresonic {
+    proxy_set_header X-Real-IP         $remote_addr;
+    proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto https;
+    proxy_set_header Host              $http_host;
+    proxy_max_temp_file_size           0;
+    proxy_pass                         http://127.0.0.1:4040;
+    proxy_redirect                     http:// https://;
+}
+```
 
 Activate the host by creating a symbolic link between the sites-available directory and the sites-enabled directory :
 ```
