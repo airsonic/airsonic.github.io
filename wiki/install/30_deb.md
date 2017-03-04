@@ -35,12 +35,24 @@ To get Libresonic running on Debian / Ubuntu we are going to install OpenJDK 8, 
     sudo apt-get install -t jessie-backports openjdk-8-jre
     ```
 
+    Set default JAVA_HOME by using the command below and choose the right version (1.8.x) :
+
+    ```
+    sudo update-alternatives --config java
+    ```
+
 * #### On Ubuntu > 16.04
 
     Install  openjdk-8-jre package :
 
     ```
     sudo apt-get install openjdk-8-jre
+    ```
+
+    Set default JAVA_HOME by using the command below and choose the right version (1.8.x) :
+
+    ```
+    sudo update-alternatives --config java
     ```
 
 ### Install Libresonic package
