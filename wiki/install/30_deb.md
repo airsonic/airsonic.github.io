@@ -48,7 +48,7 @@ To get Libresonic running on Debian / Ubuntu we are going to install OpenJDK 8, 
 Download the latest Libresonic .deb package from the [download page](/download), or with the command below :
 
 ```
-# wget https://libresonic.org/download/latest.deb -O libresonic.deb
+wget https://libresonic.org/download/latest.deb -O libresonic.deb
 ```
 
 Then install the package :
