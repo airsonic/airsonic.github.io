@@ -59,6 +59,17 @@ aside.wiki-nav {
   min-width: 10rem;
 }
 
+
+@media screen and (min-width: 93.75em) {
+  aside.wiki-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2rem;
+    max-height: 80vh;
+    overflow-y: auto;
+    }
+}
+
 @media screen and (min-width: 43em) and (max-width: 64em) {
   aside.wiki-nav {
     margin-left: 0.5rem;
