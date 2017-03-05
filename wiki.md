@@ -8,6 +8,8 @@ permalink: /wiki/
 
 Welcome to the Libresonic Wiki. This guide describes installation process for Libresonic, a free, web-based media streamer, providing ubiquitous access to your music.
 
+**Before following any wiki, be sure that your system is up-to-date !** 
+
 Here you can pick your [installation](/wiki/install) wiki for:
 * [WAR package (Tomcat)](/wiki/install/war)
 * [Jar package (Standalone)](/wiki/install/jar)
