@@ -19,7 +19,7 @@ Here you can pick your [installation](/wiki/install) wiki for:
 
 If you come from [Subsonic](http://www.subsonic.org/pages/index.jsp), you can migrate using our [migration wiki](/wiki/migrate).
 
-After installing, you may want to put Libresonic behind a reverse proxy to access Libresonic on the HTTP(S) ports or enable SSL. Use a [proxy wiki](/wikki/proxy) in the list below:
+After installing, you may want to put Libresonic behind a reverse proxy to access Libresonic on the HTTP(S) ports or enable SSL. Use a [proxy wiki](/wiki/proxy) in the list below:
 * [Configure Apache proxy](/wiki/proxy/apache)
 * [Configure Nginx proxy](/wiki/proxy/nginx)
 * [Configure Haproxy proxy](/wiki/proxy/haproxy)
