@@ -14,3 +14,10 @@ This guide assumes you already have a working Libresonic installation after foll
 ## Getting a TLS certificate
 
 This guide assumes you already have a TLS certificate. [Let's Encrypt](https://letsencrypt.org/getting-started/) currently provides such certificates for free using the [certbot software](https://certbot.eff.org/).
+
+## Provided solutions
+
+Use a wiki in the list below :
+* [Configure Apache proxy](/wiki/proxy/apache)
+* [Configure Nginx proxy](/wiki/proxy/nginx)
+* [Configure Haproxy proxy](/wiki/proxy/haproxy)
