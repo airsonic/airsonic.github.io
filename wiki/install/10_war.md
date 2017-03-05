@@ -86,7 +86,7 @@ In order to install and run Libresonic, you will need:
     * JAVA_HOME if you installed the JDK (Java Development Kit)
     * JRE_HOME if you installed the JRE (Java Runtime Environment)
 
-    In the Variable Value field, enter your JDK or JRE installation path .
+    In the Variable Value field, enter your JDK or JRE installation path.
 
     If the path contains spaces, use the shortened path name.
     For example, `C:\Progra~1\Java\jdk1.8.0_65`.

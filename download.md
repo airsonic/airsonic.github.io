@@ -51,4 +51,4 @@ permalink: /download/
 
 ### Terms of use
 
-This program is distributed in the hope that it will be useful, but **without and warranty**; without even the implied warranty of **merchantability** or **fitness for a particular purpose**. See the [GNU General Public License](http://www.gnu.org/copyleft/gpl.html) for more details.
+This program is distributed in the hope that it will be useful, but **without and warranty**; without even the implied warranty of **merchant ability** or **fitness for a particular purpose**. See the [GNU General Public License](http://www.gnu.org/copyleft/gpl.html) for more details.

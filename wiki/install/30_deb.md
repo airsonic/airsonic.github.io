@@ -69,6 +69,6 @@ Then install the package:
 sudo dpkg -i libresonic.deb
 ```
 
-Libresonic should be running at [http://localhost:4040](http://localhost:4040) if installed locally, replace `localhost` with your server IP address if installed remotly.
+Libresonic should be running at [http://localhost:4040](http://localhost:4040) if installed locally, replace `localhost` with your server IP address if installed remotely.
 
 Done!
