@@ -1,7 +1,7 @@
 # Site configuration
 title: Libresonic
 email: contact@libresonic.org
-description: "Libresonic is a free, web-based media streamer, providing ubiqutious access to your music."
+description: "Libresonic is a free, web-based media streamer, providing ubiquitous access to your music."
 url: "https://libresonic.github.io" # base hostname
 baseurl: "" # subpath
 
