@@ -5,6 +5,8 @@ permalink: /wiki/proxy/apache/
 ---
 ## Setting up Apache
 
+The following configurations works for HTTP only.
+
 Create a new virtual host file :
 
 ```
