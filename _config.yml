@@ -12,14 +12,6 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENSE.txt
-# Temp exclude
-  - wiki/60_ldap.md
-  - wiki/70_apps.md
-  - wiki/install/20_jar.md
-  - wiki/install/30_deb.md
-  - wiki/install/40_rpm.md
-  - wiki/install/50_exe.md
-  - wiki/install/60_pkg.md
 
 # Variables
 # URLs
