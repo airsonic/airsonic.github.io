@@ -115,5 +115,3 @@ These archives are built in `libresonic-assembly/targets` and include:
 * The source distribution
 * The standalone archive (for use without a WAR container)
 * The WAR archive (for WAR containers)
-
-Done!

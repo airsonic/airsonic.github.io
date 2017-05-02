@@ -13,8 +13,10 @@ exclude:
   - README.md
   - LICENSE.txt
 
-# Variables
-# URLs
+# Vars
 github_url: "https://github.com/Libresonic/libresonic"
 github_website_url: "https://github.com/Libresonic/Libresonic.github.io"
 demo_url: "#"
+
+repo: "https://libresonic.org/release"
+stable_version: "6.2"

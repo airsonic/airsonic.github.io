@@ -49,5 +49,3 @@ Restart the Apache2 service :
 ```
 sudo systemctl restart apache2.service
 ```
-
-Done !

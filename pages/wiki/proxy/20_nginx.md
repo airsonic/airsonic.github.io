@@ -68,5 +68,3 @@ Restart the Nginx service :
 ```
 sudo systemctl restart nginx.service
 ```
-
-Done !

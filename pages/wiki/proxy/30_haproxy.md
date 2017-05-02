@@ -53,5 +53,3 @@ Restart the Haproxy service :
 ```
 sudo systemctl restart haproxy.service
 ```
-
-Done !

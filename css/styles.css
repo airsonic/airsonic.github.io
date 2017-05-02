@@ -19,6 +19,26 @@ a:hover {
   color: rgba(217, 56, 47, 1);
 }
 
+h3 {
+  color: rgba(47, 123, 217, 1);
+}
+
+h4 {
+  color: rgba(217, 56, 47, 1);
+}
+
+.button-primary {
+  background-color: rgba(47, 123, 217, 1) !important;
+  border-color: rgba(47, 123, 217, 0.5) !important;
+  -webkit-transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+}
+
+.button-primary:hover {
+  background-color: rgba(217, 56, 47, 1) !important;
+  border-color: rgba(217, 56, 47, 0.5) !important;
+}
+
 /*
 HEADER SECTION
 */
@@ -150,25 +170,32 @@ MAIN SECTION
 */
 
 .container {
-  min-height: 100vh;
+  min-height: 85vh;
   text-align: justify;
   text-justify: inter-word;
 }
 
 /*
-DOWNLOAD SECTION
+CONTRIBUTE SECTION
 */
 
-.button-primary {
-  background-color: rgba(47, 123, 217, 1) !important;
-  border-color: rgba(47, 123, 217, 0.5) !important;
-  -webkit-transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out;
-  transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+.contribute {
+  margin: 10rem;
+  text-align: center;
 }
 
-.button-primary:hover {
-  background-color: rgba(217, 56, 47, 1) !important;
-  border-color: rgba(217, 56, 47, 0.5) !important;
+.contribute a {
+  text-decoration: none;
+}
+
+.contribute + .contribute {
+  margin-bottom: 10rem;
+}
+
+@media screen and (max-width: 860px) {
+  .contribute div {
+    width: 50%;
+  }
 }
 
 /*
@@ -176,12 +203,11 @@ FOOTER SECTION
 */
 
 .footer {
-  background: rgba(0, 0, 0, 0.1);
+  background:  rgba(47, 123, 217, 0.2);
   width: 100%;
   margin-top: 4rem;
   padding: 6rem 0;
   text-align: center;
-  box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.1);
 }
 
 .footer a {
@@ -258,8 +284,8 @@ HIGHLIGHTS, CODE AND PRE
 .container blockquote {
   padding: 0 1rem;
   margin-left: 0;
-  color: #819198;
-  border-left: 1rem solid #dce6f0;
+  color: #295280;
+  border-left: 1rem solid #e39595;
 }
 
 .container blockquote li > div {
