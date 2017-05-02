@@ -25,4 +25,15 @@
         }
     });
   </script>
+  <script type="text/javascript">
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll > 0) {
+            $(".wiki-nav").addClass("raised");
+        }
+        else {
+            $(".wiki-nav").removeClass("raised");
+        }
+    });
+  </script>
 </head>

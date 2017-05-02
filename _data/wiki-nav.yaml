@@ -1,0 +1,50 @@
+---
+# Max 3 level navigation
+
+- title: "Install"
+  href: "/wiki/install/"
+  subcategories:
+    - title: "WAR"
+      href: "/wiki/install/war/"
+    - title: "JAR"
+      href: "/wiki/install/jar/"
+    - title: "DEB"
+      href: "/wiki/install/deb/"
+    - title: "RPM"
+      href: "/wiki/install/rpm/"
+    - title: "EXE"
+      href: "/wiki/install/exe/"
+    - title: "PKG"
+      href: "/wiki/install/pkg/"
+    - title: "Source"
+      href: "/wiki/install/source/"
+    - title: "Exemple"
+      href: "/wiki/install/exemple/"
+      subcategories:
+        - title: "FreeNAS / FreeBSD"
+          href: "/wiki/install/exemple/freebsd-freenas/"
+
+- title: "Proxy"
+  href: "/wiki/proxy/"
+  subcategories:
+    - title: "Apache"
+      href: "/wiki/proxy/apache/"
+    - title: "Nginx"
+      href: "/wiki/proxy/nginx/"
+    - title: "HAproxy"
+      href: "/wiki/proxy/haproxy/"
+
+- title: "Migrate"
+  href: "/wiki/migrate/"
+
+- title: "Database"
+  href: "/wiki/database/"
+
+- title: "Transcode"
+  href: "/wiki/transcode/"
+
+- title: "LDAP"
+  href: "/wiki/ldap/"
+
+- title: "Apps"
+  href: "/wiki/apps/"
