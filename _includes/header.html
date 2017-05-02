@@ -1,0 +1,42 @@
+<div id="header" class="header">
+  <div class="wrap">
+    <div class="title">
+      <a href="{{ site.baseurl}}/">{{ site.title }}</a>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li>
+          <a href="/"
+           {% if page.url == "/" %}class="active"{% endif %}>
+         <i class="fa fa-home fa-fw"></i>&nbsp;Home</a>
+        </li>
+        <li>
+          <a href="/download/"
+          {% if page.url == "/download/" %}class="active"{% endif %}>
+          <i class="fa fa-download fa-fw"></i>&nbsp;Download</a>
+        </li>
+        <li>
+          <a href="/wiki/"
+          {% if page.url == "/wiki/" or page.url contains "/wiki/" %}class="active"{% endif %}>
+          <i class="fa fa-book fa-fw"></i>&nbsp;Wiki</a>
+        </li>
+        <li>
+          <a href="/contribute/"
+          {% if page.url == "/contribute/" or page.url contains "/contribute/" %}class="active"{% endif %}>
+          <i class="fa fa-pencil-square-o fa-fw"></i>&nbsp;Contribute</a>
+        </li>
+      <!--
+        <li>
+          <a href="{{ site.demo_url }}">
+          <i class="fa fa-cogs fa-fw"></i>&nbsp;Demo</a>
+        </li>
+      -->
+        <li>
+          <a href="{{ site.github_url }}">
+          <i class="fa fa-github fa-fw"></i>&nbsp;View on GitHub</a>
+        </li>
+      </ul>
+    </nav>
+    <div style="clear: both"></div>
+  </div>
+</div>
