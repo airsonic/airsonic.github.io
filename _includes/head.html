@@ -19,19 +19,10 @@
         var scroll = $(window).scrollTop();
         if (scroll > 0) {
             $(".header").addClass("raised");
-        }
-        else {
-            $(".header").removeClass("raised");
-        }
-    });
-  </script>
-  <script type="text/javascript">
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll > 0) {
             $(".wiki-nav").addClass("raised");
         }
         else {
+            $(".header").removeClass("raised");
             $(".wiki-nav").removeClass("raised");
         }
     });

@@ -46,9 +46,9 @@ permalink: /download/
   </tbody>
 </table>
 
-##### Develop versions
+##### Developers versions
 
-To download develop versions please use the [libresonic repository]({{ site.repo }}).
+To download developers versions please use the [libresonic repository]({{ site.repo }}) or simply download the [develop war file]({{ site.repo }}/libresonic-develop.war).
 
 
 #### Terms of use

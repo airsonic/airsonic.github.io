@@ -217,7 +217,6 @@ WIKI SECTION
   margin: 1rem;
 }
 
-
 /*
 CONTRIBUTE SECTION
 */
@@ -254,6 +253,20 @@ FOOTER SECTION
 }
 
 .footer a {
+  text-decoration: none;
+}
+
+/*
+404
+*/
+
+#not-found {
+  text-align: center;
+  margin-top: 40vh;
+  font-weight: bold;
+}
+
+#not-found a {
   text-decoration: none;
 }
 
