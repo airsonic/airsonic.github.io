@@ -18,6 +18,9 @@ permalink: /download/
       <td><a href="{{ site.repo }}/libresonic-v{{ site.stable_version }}.war" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
       <td><a class="button" href="/wiki/install/war-standalone/">Instructions</a></td>
     </tr>
+
+<!--
+
     <tr>
       <td><i class="fa fa-linux fa-fw"></i> Debian / Ubuntu</td>
       <td><a href="{{ site.repo }}/libresonic-v{{ site.stable_version }}.deb" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
@@ -38,6 +41,9 @@ permalink: /download/
       <td><a href="{{ site.repo }}/libresonic-v{{ site.stable_version }}.pkg" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
       <td><a class="button" href="/wiki/install/pkg/">Instructions</a></td>
     </tr>
+
+-->
+
     <tr>
       <td><i class="fa fa-code fa-fw"></i> Source code</td>
       <td><a href="https://github.com/Libresonic/libresonic/archive/stable.zip" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
