@@ -28,6 +28,13 @@ frontend https
     bind :80
     bind :443 ssl crt /etc/haproxy/certs/cert_key.pem
 
+    # Add X-Headers necessary for HTTPS; include :[port] if not running on port 443
+    http-request set-header X-Forwarded-Host %[req.hdr(Host)]
+    http-request set-header X-Forwarded-Proto https
+
+    # (OPTIONAL) Force HTTPS
+    redirect scheme https if !{ ssl_fc }
+
     # Bind URL with the right backend
     acl is_libresonic  path_beg -i /libresonic
     use_backend libresonic-backend if is_libresonic
@@ -37,9 +44,6 @@ backend libresonic-backend
     # Rewrite all redirects to use HTTPS, similar to what Nginx does in the
     # proxy_redirect directive.
     http-response replace-value Location ^http://(.*)$ https://\1
-
-    # (OPTIONAL) Force HTTPS
-    redirect scheme https if !{ ssl_fc }
 
     # Forward requests to Libresonic server
     server libresonic 127.0.0.1:4040 check

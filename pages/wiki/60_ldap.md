@@ -3,6 +3,6 @@ layout: wiki
 title: LDAP
 permalink: /wiki/ldap/
 ---
-## Set up LDAP configuration
+## Setting up a LDAP configuration
 
-**Work in progress for a detailed wiki**
+**Work in progress**

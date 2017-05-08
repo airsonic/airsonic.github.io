@@ -3,6 +3,6 @@ layout: wiki
 title: Windows
 permalink: /wiki/install/exe/
 ---
-## Windows
+## Install Libresonic on Windows
 
-**Work in progress for a detailed wiki**
+**Work in progress**

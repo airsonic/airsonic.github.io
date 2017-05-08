@@ -3,7 +3,7 @@ layout: wiki
 title: Debian / Ubuntu
 permalink: /wiki/install/deb/
 ---
-##  Install Libresonic on Debian / Ubuntu
+## Install Libresonic on Debian / Ubuntu
 
 To get Libresonic running on Debian / Ubuntu we are going to install OpenJDK 8, then we will download the .deb package and install it.
 

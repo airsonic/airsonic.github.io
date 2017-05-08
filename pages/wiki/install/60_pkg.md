@@ -3,6 +3,6 @@ layout: wiki
 title: MacOS
 permalink: /wiki/install/pkg/
 ---
-## MacOS
+## Install Libresonic on MacOS
 
-**Work in progress for a detailed wiki**
+**Work in progress**

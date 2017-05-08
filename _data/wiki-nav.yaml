@@ -6,8 +6,8 @@
   subcategories:
     - title: "WAR"
       href: "/wiki/install/war/"
-    - title: "JAR"
-      href: "/wiki/install/jar/"
+    - title: "Stand-alone"
+      href: "/wiki/install/war-standalone/"
     - title: "DEB"
       href: "/wiki/install/deb/"
     - title: "RPM"
@@ -21,7 +21,7 @@
     - title: "Exemple"
       href: "/wiki/install/exemple/"
       subcategories:
-        - title: "FreeNAS / FreeBSD"
+        - title: "FreeBSD / FreeNAS"
           href: "/wiki/install/exemple/freebsd-freenas/"
 
 - title: "Proxy"

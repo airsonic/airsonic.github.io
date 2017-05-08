@@ -3,9 +3,9 @@ layout: wiki
 title: Source
 permalink: /wiki/install/source/
 ---
-## Install from source
+## Install Libresonic from source
 
-### Prerequisites
+#### Prerequisites
 
 In order to build, install, and run Libresonic, you will need:
 * A recent version of [Maven](http://maven.apache.org/).
@@ -38,7 +38,7 @@ git clone https://github.com/Libresonic/libresonic.git
 cd libresonic
 ```
 
-> At the time of this writing, we recommend building from the development branch, as Libresonic has not had a stable release since being forked.
+> If you want to build the development version, change the branch to `develop`
 ```
 git checkout develop
 ```
@@ -50,7 +50,7 @@ git checkout develop
 Using Maven, build Libresonic:
 
 ```
-mvn package
+mvn clean package
 ```
 
 You should now have a .war file:
@@ -65,8 +65,7 @@ Follow the [WAR installation](/wiki/install/war) page to deploy the Libresonic W
 
 You can create a .jar package for standalone installation.
 
-**Work in progress for a detailed wiki**
-
+**Work in progress**
 
 #### Build Libresonic .deb package
 

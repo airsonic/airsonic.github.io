@@ -3,7 +3,7 @@ layout: wiki
 title: Migrate
 permalink: /wiki/migrate/
 ---
-## Upgrade to Libresonic from Subsonic
+## Migrating from Subsonic to Libresonic
 
 This guide helps you to migrate your data from Subsonic to Libresonic. It has been tested with Subsonic 5 to Libresonic 6.
 

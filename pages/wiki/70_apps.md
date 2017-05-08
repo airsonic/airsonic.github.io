@@ -3,6 +3,6 @@ layout: wiki
 title: Apps
 permalink: /wiki/apps/
 ---
-## Libresonic apps
+## Libresonic applications
 
-**Work in progress for a detailed wiki**
+**Work in progress**

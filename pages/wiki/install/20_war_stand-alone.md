@@ -1,16 +1,12 @@
 ---
 layout: wiki
-title: WAR
-permalink: /wiki/install/war/
+title: Stand-alone
+permalink: /wiki/install/war-standalone/
 ---
-## Tomcat WAR installation
+## Stand-alone WAR installation
 
-To get Libresonic running with a Tomcat server, we are going to install OpenJDK 8 or Oracle JDK 8, set the default JAVA_HOME, and finally deploy our Libresonic WAR package.
-
-#### Prerequisites
-
-In order to install and run Libresonic, you will need:
-* A running [Tomcat](http://tomcat.apache.org/) server. If you're unfamiliar with Tomcat, there are many [guides](https://www.digitalocean.com/community/tags/java?q=How+to+install+tomcat8&type=tutorials) on it.
+If you'd prefer not to use a Tomcat container, you can also run Libresonic as a standalone application.
+Note that, in that case, libresonic will available at `http://IP_ADDRESS:8080` (and not `IP_ADDRESS:8080/libresonic/`).
 
 ### Install OpenJDK 8
 
@@ -102,7 +98,6 @@ JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
 Please follow this [well documented tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora#install-oracle-java-8) to install Java 8  and set default JAVA_HOME on your device.
 
-
 #### On Windows
 
 Download the JDK 8 .exe package from the [JDK download page](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
@@ -146,9 +141,17 @@ Add the following lines to your ` ~/.bash_profile` file:
 export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 ```
 
-### Deploy Libresonic WAR package
+```
+mkdir /var/libresonic/
+```
 
-#### On Debian 8 / Ubuntu > 16.04
+Now you can simply run java against the libresonic.war package using a command like:
+
+```
+java -jar libresonic.war
+```
+
+### Run Libresonic WAR package
 
 Download the latest Libresonic .war package from the [download page](/download), or with the command below:
 
@@ -156,54 +159,15 @@ Download the latest Libresonic .war package from the [download page](/download),
 wget {{ site.repo }}/libresonic-v{{ site.stable_version }}.war
 ```
 
-Create the Libresonic directory and assign ownership to the Tomcat system user (if running tomcat as a service):
+Create the Libresonic directory and assign ownership to the user that will run Libresonic:
 
 ```
 sudo mkdir /var/libresonic/
-sudo chown -R tomcat8:tomcat8 /var/libresonic/
+sudo chown -R $USER:$GROUP /var/libresonic/
 ```
 
-Stop the tomcat8 service:
+Now you can simply run java against the libresonic.war package:
 
 ```
-sudo systemctl stop tomcat8.service
+java -jar libresonic.war
 ```
-
-Remove the possible existing libresonic files from the TOMCAT_HOME:
-
-```
-sudo rm /var/tomcat8/webapps/libresonic.war
-sudo rm -R /var/tomcat8/webapps/libresonic/
-sudo rm -R /var/tomcat8/work/*
-```
-
-Move the downloaded WAR file in the TOMCAT_HOME/webapps/ folder:
-
-```
-sudo mv libresonic-v{{ site.stable_version }}.war /var/tomcat8/webapps/libresonic.war
-```
-
-Restart the tomcat8 service:
-
-```
-sudo systemctl start tomcat8.service
-```
-
-> Note that it may take ~30 seconds after the service restarts for Tomcat to fully deploy the app. You can monitor /var/log/tomcat8/catalina.out for the following message:
-```
-INFO: Deployment of web application archive /var/lib/tomcat8/webapps/libresonic.war has finished in 46,192 ms
-```
-
-Libresonic should be running at [http://localhost:8080/libresonic](http://localhost:8080/libresonic) if installed locally, replace `localhost` with your server IP address if installed remotly.
-
-#### On Red Hat / Fedora
-
-**Work in progress**
-
-#### On Windows
-
-**Work in progress**
-
-#### On MacOS
-
-**Work in progress**
