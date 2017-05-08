@@ -15,8 +15,8 @@ permalink: /download/
     </tr>
     <tr>
       <td><i class="fa fa-archive fa-fw"></i> Stand-alone version (all platforms)</td>
-      <td><a href="{{ site.repo }}/libresonic-v{{ site.stable_version }}.jar" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
-      <td><a class="button" href="/wiki/install/jar/">Instructions</a></td>
+      <td><a href="{{ site.repo }}/libresonic-v{{ site.stable_version }}.war" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
+      <td><a class="button" href="/wiki/install/war-standalone/">Instructions</a></td>
     </tr>
     <tr>
       <td><i class="fa fa-linux fa-fw"></i> Debian / Ubuntu</td>
