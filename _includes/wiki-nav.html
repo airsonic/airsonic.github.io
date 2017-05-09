@@ -10,12 +10,12 @@
             <ul class="wiki-nav-ul level-two">
               {% for item in item.subcategories %}
                 <li class="wiki-nav-li">
-                  <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>&nbsp;&nbsp;&nbsp;&nbsp;{{ item.title }}</a>
+                  <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>&nbsp;&nbsp;{{ item.title }}</a>
                   {% if item.subcategories[0] %}
                     <ul class="wiki-nav-ul level-three">
                       {% for item in item.subcategories %}
                         <li class="wiki-nav-li">
-                          <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.title }}</a>
+                          <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>&nbsp;&nbsp;&nbsp;&nbsp;{{ item.title }}</a>
                         </li>
                       {% endfor %}
                     </ul>

@@ -182,6 +182,9 @@ WIKI SECTION
 .wiki-column {
   position: sticky;
   top: 18vh;
+  overflow-x: auto;
+  max-height: 75vh;
+  margin-bottom: 2rem;
 }
 
 .wiki-nav {
@@ -246,7 +249,7 @@ FOOTER SECTION
   background:  rgba(47, 123, 217, 0.2);
   width: 100%;
   margin-top: 4rem;
-  padding: 6rem 0;
+  padding: 2rem 0;
   text-align: center;
 }
 
