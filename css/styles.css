@@ -179,6 +179,11 @@ MAIN SECTION
 WIKI SECTION
 */
 
+.wiki-column {
+  position: sticky;
+  top: 18vh;
+}
+
 .wiki-nav {
   border-left: 0.5rem solid #295280;
 }
@@ -203,11 +208,11 @@ WIKI SECTION
 }
 
 .wiki-nav a:hover {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .wiki-nav a.active {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 /*
