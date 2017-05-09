@@ -19,11 +19,16 @@ a:hover {
   color: rgba(217, 56, 47, 1);
 }
 
-h3 {
-  color: rgba(47, 123, 217, 1);
+h1, h2, h3, h4, h5, h6 {
+  text-align: initial;
+  text-justify: initial;
 }
 
 h4 {
+  color: rgba(47, 123, 217, 1);
+}
+
+h5 {
   color: rgba(217, 56, 47, 1);
 }
 
@@ -126,6 +131,7 @@ HEADER SECTION
     margin: 0 2%;
     width: 96%;
   }
+
   .header .menu li + li {
     margin-left: 0.5rem;
   }
@@ -137,27 +143,33 @@ HEADER SECTION
     width: 100%;
     text-align: center;
   }
+
   .header .title {
     float: none;
     text-align: center;
     margin: 0;
     padding: 0.5rem 0;
   }
+
   .header .menu {
     float: none;
   }
+
   .header .menu ul {
     padding-bottom: 2px;
   }
+
   .header .menu li {
     display: block;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+
   .header .menu li, .header .menu li + li {
     margin: 1rem 1rem;
   }
+
   .header .menu a {
     display: block;
     font-size: 1.5rem;
@@ -180,11 +192,12 @@ WIKI SECTION
 */
 
 .wiki-column {
+  text-align: normal;
+  text-justify: normal;
   position: sticky;
   top: 18vh;
   overflow-x: auto;
   max-height: 75vh;
-  margin-bottom: 2rem;
 }
 
 .wiki-nav {
@@ -279,7 +292,7 @@ HIGHLIGHTS, CODE AND PRE
   padding: 2px 4px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   color: #2d3e45;
-  background-color: #cfdcec;
+  background: #f1f1f1;
   border-radius: 0.3rem;
 }
 
@@ -290,7 +303,7 @@ HIGHLIGHTS, CODE AND PRE
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   color: #2d3e45;
   word-wrap: normal;
-  background-color: #cfdcec;
+  background: #f1f1f1;
   border: solid 1px #dce6f0;
   border-radius: 0.3rem;
 }
@@ -342,7 +355,7 @@ HIGHLIGHTS, CODE AND PRE
   padding: 0 1rem;
   margin-left: 0;
   color: #295280;
-  border-left: 0.5rem solid #295280;
+  border-left: 0.3rem solid #ba403c;
 }
 
 .container blockquote li > div {

@@ -24,21 +24,21 @@ configuration:
   - Set the correct address to listen to
   - Set the correct port to listen to
 
-#### Spring Boot
+##### Spring Boot
 
 Add the following java args:
 
 ```java
-java -Dserver.port=4040 -Dserver.address=127.0.0.1 -Dserver.contextPath=/libresonic -jar libresonic.war
+java -Dserver.port=8080 -Dserver.address=127.0.0.1 -Dserver.contextPath=/libresonic -jar libresonic.war
 ```
 
-#### Tomcat
+##### Tomcat
 
 Modify your `<Connector>` with the proper address and port:
 
 ```
 <Connector
-    port="4040"
+    port="8080"
     address="127.0.0.1"
 ```
 
@@ -48,7 +48,7 @@ For the context path, tomcat will automatically deploy to a context path matchin
 
 ## Reverse proxy configuration
 
-#### How it works
+##### How it works
 
 Libresonic expects proxies to provide information about their incoming URL so that Libresonic can craft it when needed.
 To do so, Libresonic looks for the following HTTP headers:
@@ -68,7 +68,7 @@ Currently this is used wherever, `NetworkService#getBaseUrl` is called. A couple
 
 ## Provided configurations
 
-Use a wiki in the list below :
-* [Configure Apache proxy](/wiki/proxy/apache)
-* [Configure Nginx proxy](/wiki/proxy/nginx)
-* [Configure Haproxy proxy](/wiki/proxy/haproxy)
+Use a wiki in the list below:
+- [Configure Apache proxy](/wiki/proxy/apache)
+- [Configure Nginx proxy](/wiki/proxy/nginx)
+- [Configure Haproxy proxy](/wiki/proxy/haproxy)

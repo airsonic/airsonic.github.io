@@ -7,11 +7,11 @@ permalink: /wiki/migrate/
 
 This guide helps you to migrate your data from Subsonic to Libresonic. It has been tested with Subsonic 5 to Libresonic 6.
 
-### Install Libresonic
+#### Install Libresonic
 
 Install Libresonic as described in the [install wiki](/wiki/install).
 
-### Migrate to Libresonic
+#### Migrate to Libresonic
 
 After installation of Libresonic, the database needs to be migrated. In preperation for that, stop the Libresonic service.
 
@@ -39,7 +39,7 @@ sudo mv /var/libresonic/db/subsonic.script /var/libresonic/db/libresonic.script
 
 Then start Libresonic service again.
 
-Your old settings will still be there. **If you wish**, you can delete subsonic data:
+Your old settings will still be there. --If you wish--, you can delete subsonic data:
 
 ```
 sudo rm -r /var/subsonic

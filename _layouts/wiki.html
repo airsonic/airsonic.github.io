@@ -4,29 +4,26 @@
   {% include head.html %}
 
   <body>
-
     <span id="top"></span>
 
     {% include header.html %}
 
     <div class="container">
-
       <div class="row">
-
-        <div class="four columns wiki-column">
+        <div class="three columns wiki-column">
 
           {% include wiki-nav.html %}
 
         </div>
-
-        <div class="eight columns">
+        <div class="nine columns">
 
           {{ content }}
 
+          <script>
+            anchors.add();
+          </script>
         </div>
-
       </div>
-
     </div>
 
     {% include footer.html %}

@@ -5,13 +5,16 @@ permalink: /wiki/proxy/nginx/
 ---
 ## Setting up Nginx
 
-Create a new virtual host file :
+The following configurations works for HTTPS (with an HTTP redirection).
+
+Create a new virtual host file:
 
 ```
 sudo nano /etc/nginx/sites-available/libresonic
 ```
 
-Paste the following configuration in the virtual host file :
+Paste the following configuration in the virtual host file:
+
 ```nginx
 # Redirect HTTP to HTTPS
 server {
@@ -36,17 +39,18 @@ server {
         proxy_set_header X-Forwarded-Host  $http_host;
         proxy_set_header Host              $http_host;
         proxy_max_temp_file_size           0;
-        proxy_pass                         http://127.0.0.1:4040;
+        proxy_pass                         http://127.0.0.1:8080;
         proxy_redirect                     http:// https://;
     }
 }
 ```
-You will need to make a couple of changes in the configuration file :
-* Replace `exemple.com` with your own domain name.
-* Be sure to set the right path to your `cert.pem` and `key.pem` files.
-* Change `/libresonic` following your libresonic server path.
-* Change `http://127.0.0.1:4040` following you libresonic server location and port.
-> Note that you could only add the "location /libresonic" section to your existing configuration :
+
+You will need to make a couple of changes in the configuration file:
+- Replace `exemple.com` with your own domain name.
+- Be sure to set the right path to your `cert.pem` and `key.pem` files.
+- Change `/libresonic` following your libresonic server path.
+- Change `http://127.0.0.1:8080` following you libresonic server location and port.
+> Note that you could only add the "location /libresonic" section to your existing configuration:
 ```nginx
 # Proxy to the Libresonic server
 location /libresonic {
@@ -55,17 +59,19 @@ location /libresonic {
     proxy_set_header X-Forwarded-Proto https;
     proxy_set_header Host              $http_host;
     proxy_max_temp_file_size           0;
-    proxy_pass                         http://127.0.0.1:4040;
+    proxy_pass                         http://127.0.0.1:8080;
     proxy_redirect                     http:// https://;
 }
 ```
 
-Activate the host by creating a symbolic link between the sites-available directory and the sites-enabled directory :
+Activate the host by creating a symbolic link between the sites-available directory and the sites-enabled directory:
+
 ```
 sudo ln -s /etc/nginx/sites-available/libresonic /etc/nginx/sites-enabled/libresonic
 ```
 
-Restart the Nginx service :
+Restart the Nginx service:
+
 ```
 sudo systemctl restart nginx.service
 ```

@@ -4,6 +4,8 @@
 - title: "Install"
   href: "/wiki/install/"
   subcategories:
+    - title: "Prerequisites"
+      href: "/wiki/install/prerequisites/"
     - title: "WAR"
       href: "/wiki/install/war/"
     - title: "Stand-alone"
@@ -21,7 +23,7 @@
     - title: "Exemple"
       href: "/wiki/install/exemple/"
       subcategories:
-        - title: "FreeBSD / FreeNAS"
+        - title: "FreeBSD/NAS"
           href: "/wiki/install/exemple/freebsd-freenas/"
 
 - title: "Proxy"
