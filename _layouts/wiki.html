@@ -9,11 +9,23 @@
 
     {% include header.html %}
 
-    {% include wiki-nav.html %}
-
     <div class="container">
 
-      {{ content }}
+      <div class="row">
+
+        <div class="four columns">
+
+          {% include wiki-nav.html %}
+
+        </div>
+
+        <div class="eight columns">
+
+          {{ content }}
+
+        </div>
+
+      </div>
 
     </div>
 

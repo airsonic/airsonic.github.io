@@ -1,21 +1,21 @@
-<h2 id="wiki-title">Libresonic wiki</h2>
+<h2>Wiki</h2>
 
 <nav class="wiki-nav">
   {% if site.data.wiki-nav[0] %}
     <ul class="wiki-nav-ul level-one">
       {% for item in site.data.wiki-nav %}
         <li class="wiki-nav-li">
-          <a href="{{ item.href }}">{{ item.title }}</a>
+          <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}</a>
           {% if item.subcategories[0] %}
             <ul class="wiki-nav-ul level-two">
               {% for item in item.subcategories %}
                 <li class="wiki-nav-li">
-                  <a href="{{ item.href }}">{{ item.title }}</a>
+                  <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>&nbsp;&nbsp;&nbsp;&nbsp;{{ item.title }}</a>
                   {% if item.subcategories[0] %}
                     <ul class="wiki-nav-ul level-three">
                       {% for item in item.subcategories %}
                         <li class="wiki-nav-li">
-                          <a href="{{ item.href }}">{{ item.title }}</a>
+                          <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.title }}</a>
                         </li>
                       {% endfor %}
                     </ul>

@@ -179,42 +179,31 @@ MAIN SECTION
 WIKI SECTION
 */
 
-#wiki-title {
-  text-align: center;
-}
-
 .wiki-nav {
-  width: 100%;
-  background: rgb(47, 123, 217);
-  color: #fff;
-  position: sticky;
-  top: 78px;
-  margin-bottom: 4rem;
-  text-align: center;
-  z-index: 99;
-  -webkit-transition: box-shadow 1s;
-  transition: box-shadow 1s;
+  border-left: 0.5rem solid #295280;
 }
 
-.wiki-nav.raised {
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+.wiki-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.wiki-nav li {
+  padding: 0;
+  margin: 0;
+  display: block;
 }
 
 .wiki-nav a {
-  color: #fff;
   text-decoration: none;
+  display: block;
+  padding: 0.2rem 2rem;
+  font-weight: bold;
 }
 
-.wiki-nav-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: inline-block;
-}
-
-.wiki-nav-li {
-  display: inline-block;
-  margin: 1rem;
+.wiki-nav a.active {
+  background: rgba(0, 0, 0, 0.1);
 }
 
 /*
