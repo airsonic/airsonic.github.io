@@ -1,10 +1,8 @@
 ---
 layout: wiki
-title: Red Hat / Fedora
+title: Install Libresonic on Red Hat / Fedora
 permalink: /wiki/install/rpm/
 ---
-## Install Libresonic on Red Hat / Fedora
-
 ##### Prerequisites
 
 In order to install and run Libresonic, you will need:

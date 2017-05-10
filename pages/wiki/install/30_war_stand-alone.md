@@ -1,10 +1,8 @@
 ---
 layout: wiki
-title: Stand-alone
+title: Stand-alone WAR installation
 permalink: /wiki/install/war-standalone/
 ---
-## Stand-alone WAR installation
-
 If you'd prefer not to use a Tomcat container, you can also run Libresonic as a standalone application.
 Note that, in that case, libresonic will available at `http://localhost:8080` (and not `http://localhost:8080/libresonic`).
 

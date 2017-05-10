@@ -1,10 +1,8 @@
 ---
 layout: wiki
-title: Set up Nginx
+title: Setting up Nginx
 permalink: /wiki/proxy/nginx/
 ---
-## Setting up Nginx
-
 The following configurations works for HTTPS (with an HTTP redirection).
 
 Create a new virtual host file:

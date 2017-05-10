@@ -1,10 +1,8 @@
 ---
 layout: wiki
-title: Set up HAproxy
+title: Setting up HAproxy
 permalink: /wiki/proxy/haproxy/
 ---
-## Setting up HAproxy
-
 Open the haproxy configuration file:
 
 ```

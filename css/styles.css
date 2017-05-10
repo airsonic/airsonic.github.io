@@ -6,17 +6,16 @@ body {
   margin: 0;
   padding: 0;
   min-width: 480px;
-  max-width: 100vw;
 }
 
 a {
-  color: rgba(47, 123, 217, 1);
+  color: rgb(47, 123, 217);
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 
 a:hover {
-  color: rgba(217, 56, 47, 1);
+  color: rgb(217, 56, 47);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,22 +24,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h4 {
-  color: rgba(47, 123, 217, 1);
+  color: rgb(47, 123, 217);
 }
 
 h5 {
-  color: rgba(217, 56, 47, 1);
+  color: rgb(217, 56, 47);
 }
 
 .button-primary {
-  background-color: rgba(47, 123, 217, 1) !important;
+  background-color: rgb(47, 123, 217) !important;
   border-color: rgba(47, 123, 217, 0.5) !important;
-  -webkit-transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out;
-  transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
 .button-primary:hover {
-  background-color: rgba(217, 56, 47, 1) !important;
+  background-color: rgb(217, 56, 47) !important;
   border-color: rgba(217, 56, 47, 0.5) !important;
 }
 
@@ -57,8 +56,8 @@ HEADER SECTION
   background-color: #fff;
   color: rgba(47, 123, 217, 1);
   z-index: 100;
-  -webkit-transition: box-shadow 1s;
-  transition: box-shadow 1s;
+  -webkit-transition: box-shadow 1s ease;
+  transition: box-shadow 1s ease;
 }
 
 .header.raised {
@@ -76,15 +75,9 @@ HEADER SECTION
 }
 
 .header .title a {
-  color: rgba(47, 123, 217, 1);
   font-weight: 400;
   font-size: 3rem;
   text-decoration: none;
-  -webkit-transition: color 0.5s;
-  transition: color 0.5s;
-}
-.header .title a:hover {
-  color: rgba(217, 56, 47, 1);
 }
 
 .header .menu {
@@ -109,17 +102,16 @@ HEADER SECTION
 .header .menu a {
   font-size: 1.7rem;
   text-decoration: none;
-  color: rgba(47, 123, 217, 1);
   padding: 0.75rem 1rem;
   border-radius: 1rem;
-  border: 2px solid rgba(0, 0, 0, 0);
-  -webkit-transition: border 0.25s ease-in-out, color 0.25s ease-in-out;
-  transition: border 0.25s, color 0.25s ease-in-out;
+  border: 2px solid;
+  border-color: rgba(0, 0, 0, 0);
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
 }
 
 .header .menu a:hover {
-  color: rgba(217, 56, 47, 1);
-  border: 2px solid rgba(217, 56, 47, 0.2);
+  border-color: rgba(217, 56, 47, 0.2);
 }
 
 .header .menu a.active {
@@ -127,6 +119,7 @@ HEADER SECTION
 }
 
 @media screen and (min-width: 860px) and (max-width: 1280px) {
+
   .header .wrap {
     margin: 0 2%;
     width: 96%;
@@ -135,9 +128,11 @@ HEADER SECTION
   .header .menu li + li {
     margin-left: 0.5rem;
   }
+
 }
 
 @media screen and (max-width: 860px) {
+
   .header .wrap {
     margin: 0;
     width: 100%;
@@ -175,123 +170,22 @@ HEADER SECTION
     font-size: 1.5rem;
     border-radius: 1rem;
   }
+
 }
 
 /*
-MAIN SECTION
+CONTAINER SECTION
 */
 
 .container {
-  min-height: 85vh;
+  min-height: 80vh;
   text-align: justify;
   text-justify: inter-word;
 }
 
-/*
-WIKI SECTION
-*/
-
-.wiki-column {
-  text-align: normal;
-  text-justify: normal;
-  position: sticky;
-  top: 18vh;
-  overflow-x: auto;
-  max-height: 75vh;
-}
-
-.wiki-nav {
-  border-left: 0.5rem solid #295280;
-}
-
-.wiki-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.wiki-nav li {
-  padding: 0;
-  margin: 0;
-  display: block;
-}
-
-.wiki-nav a {
-  text-decoration: none;
-  display: block;
-  padding: 0.2rem 2rem;
-  font-weight: bold;
-}
-
-.wiki-nav a:hover {
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.wiki-nav a.active {
-  background: rgba(0, 0, 0, 0.2);
-}
-
-/*
-CONTRIBUTE SECTION
-*/
-
-.contribute {
-  margin: 10rem;
-  text-align: center;
-}
-
-.contribute a {
-  text-decoration: none;
-}
-
-.contribute + .contribute {
-  margin-bottom: 10rem;
-}
-
-@media screen and (max-width: 860px) {
-  .contribute div {
-    width: 50%;
-  }
-}
-
-/*
-FOOTER SECTION
-*/
-
-.footer {
-  background:  rgba(47, 123, 217, 0.2);
-  width: 100%;
-  margin-top: 4rem;
-  padding: 2rem 0;
-  text-align: center;
-}
-
-.footer a {
-  text-decoration: none;
-  text-align: center;
-}
-
-/*
-404
-*/
-
-#not-found {
-  text-align: center;
-  margin-top: 40vh;
-  font-weight: bold;
-}
-
-#not-found a {
-  text-decoration: none;
-}
-
-/*
-HIGHLIGHTS, CODE AND PRE
-*/
-
 .container code {
   padding: 2px 4px;
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "Liberation Mono", Menlo, Courier, monospace;
   color: #2d3e45;
   background: #f1f1f1;
   border-radius: 0.3rem;
@@ -301,7 +195,7 @@ HIGHLIGHTS, CODE AND PRE
   padding: 0.8rem;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "Liberation Mono", Menlo, Courier, monospace;
   color: #2d3e45;
   word-wrap: normal;
   background: #f1f1f1;
@@ -370,6 +264,177 @@ HIGHLIGHTS, CODE AND PRE
 .container blockquote > :last-child {
   margin-bottom: 0;
 }
+
+/*
+WIKI SECTION
+*/
+
+.wiki-nav-column {
+  text-align: normal;
+  text-justify: normal;
+  overflow-x: auto;
+  max-height: 75vh;
+  position: sticky;
+  top: 10vh;
+}
+
+.wiki-nav {
+  border-left: 0.5rem solid #295280;
+}
+
+.wiki-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.wiki-nav li {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.wiki-nav a {
+  text-decoration: none;
+  display: block;
+  padding: 0.2rem 2rem;
+  font-weight: bold;
+}
+
+.wiki-nav a:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.wiki-nav a.active {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/*
+CONTRIBUTE SECTION
+*/
+
+.contribute {
+  margin: 10rem;
+  text-align: center;
+}
+
+.contribute a {
+  text-decoration: none;
+}
+
+.contribute + .contribute {
+  margin-bottom: 10rem;
+}
+
+@media screen and (max-width: 860px) {
+  .contribute div {
+    width: 50%;
+  }
+}
+
+/*
+FOOTER SECTION
+*/
+
+.footer {
+  background:  rgba(47, 123, 217, 0.2);
+  width: 100%;
+  margin-top: 4rem;
+  padding: 2rem 0;
+  text-align: center;
+  align-content: center;
+}
+
+.footer a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+/*
+TOC
+*/
+
+#toc {
+  padding: 1rem;
+  margin: 2rem 3rem;
+  background: #f1f1f1;
+  border-radius: 0.3rem;
+}
+
+.toc-title {
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.toc-ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.toc-li {
+  padding: 0 1rem;
+  margin: 0;
+  list-style: none;
+}
+
+.toc-li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem 0;
+  -webkit-transition: background-color 0.2s ease, color 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.toc-li a:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/*
+SCROLLTOP
+*/
+
+.scrolltop {
+  position: fixed;
+  display: none;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 20px;
+  -webkit-transition: height 0.5s ease-in-out, color 0.5s ease-in-out;
+  transition: height 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.scrolltop:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 60px;
+  border-radius: 20px;
+}
+
+/*
+404
+*/
+
+#not-found {
+  text-align: center;
+  margin-top: 40vh;
+  font-weight: bold;
+}
+
+#not-found a {
+  text-decoration: none;
+}
+
+/*
+HIGHLIGHTS
+*/
 
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #808080 } /* Comment */

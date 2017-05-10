@@ -2,19 +2,19 @@
 
 <nav class="wiki-nav">
   {% if site.data.wiki-nav[0] %}
-    <ul class="wiki-nav-ul level-one">
+    <ul>
       {% for item in site.data.wiki-nav %}
-        <li class="wiki-nav-li">
-          <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}{% if item.subcategories[0] %}<i class="fa fa-level-down fa-fw"></i>{% endif %}</a>
+        <li>
+          <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}{% if item.subcategories[0] %}<i class="fa fa-angle-double-down fa-fw"></i>{% endif %}</a>
           {% if item.subcategories[0] %}
-            <ul class="wiki-nav-ul level-two">
+            <ul>
               {% for item in item.subcategories %}
-                <li class="wiki-nav-li">
-                  <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}{% if item.subcategories[0] %}<i class="fa fa-level-down fa-fw"></i>{% endif %}</a>
+                <li>
+                  <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}{% if item.subcategories[0] %}<i class="fa fa-angle-down fa-fw"></i>{% endif %}</a>
                   {% if item.subcategories[0] %}
-                    <ul class="wiki-nav-ul level-three">
+                    <ul>
                       {% for item in item.subcategories %}
-                        <li class="wiki-nav-li">
+                        <li>
                           <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}</a>
                         </li>
                       {% endfor %}

@@ -1,10 +1,8 @@
 ---
 layout: wiki
-title: FreeBSD FreeNAS
+title: Installing Libresonic on FreeBSD 10.3 and FreeNAS 9.10
 permalink: /wiki/install/exemple/freebsd-freenas/
 ---
-## Installing Libresonic on FreeBSD 10.3 and FreeNAS 9.10
-
 #### Preamble
 
 This guide will wallk you through the process of deploying Libresonic on FreeBSD either in a Jail on on the main system. The prerequisites are you have root access on your FreeBSD machine (or jail), the ip address of the machine (or jail) and the Libresonic war available at the [Libresonic github page](https://github.com/Libresonic/libresonic/releases).

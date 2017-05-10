@@ -1,10 +1,8 @@
 ---
 layout: wiki
-title: MacOS
+title: Install Libresonic on MacOS
 permalink: /wiki/install/pkg/
 ---
-## Install Libresonic on MacOS
-
 ##### Prerequisites
 
 In order to install and run Libresonic, you will need:

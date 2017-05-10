@@ -1,19 +1,11 @@
 ---
 layout: wiki
-title: WAR
+title: Libresonic prerequisites installation
 permalink: /wiki/install/prerequisites/
 ---
-## Libresonic prerequisites installation
-
 To get Libresonic running, we are going to install OpenJDK 8 or Oracle JDK 8, set the default `JAVA_HOME`, and finally deploy our Libresonic WAR package.
 
 #### Install OpenJDK 8
-
-- [On Debian 8](#on-debian-8)
-- [On Ubuntu > 16.04](#on-ubuntu--1604)
-- [On Red Hat / Fedora](#on-red-hat--fedora)
-- [On Windows](#on-windows)
-- [On MacOS](#on-macos)
 
 ##### On Debian 8
 

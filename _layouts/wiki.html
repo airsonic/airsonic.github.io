@@ -10,21 +10,29 @@
 
     <div class="container">
       <div class="row">
-        <div class="three columns wiki-column">
+        <div class="three columns wiki-nav-column">
 
           {% include wiki-nav.html %}
 
         </div>
-        <div class="nine columns">
+        <div class="nine columns wiki-content-column">
+
+          <h2>{{ page.title }}</h2>
+
+          {% include toc.html %}
 
           {{ content }}
 
-          <script>
-            anchors.add();
+          <script type="text/javascript">
+            // init toc after wiki content load
+            $(document).ready(function() {
+              $('#toc').toc();
+            });
           </script>
         </div>
       </div>
     </div>
+    <a data-scroll class="scrolltop" href="#top"><i class="fa fa-chevron-up fa-fw"></i></a>
 
     {% include footer.html %}
 

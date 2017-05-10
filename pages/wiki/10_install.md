@@ -1,11 +1,9 @@
 ---
 layout: wiki
-title: Install
+title: Installing Libresonic
 permalink: /wiki/install/
 ---
-## Installing Libresonic
-
-Before installing the Libresonic package, you will have to install a working JDK. Follow this [guide](/wiki/install/prerequisites/) to install it.
+Before installing Libresonic, you will have to install a working JDK. Follow this [guide](/wiki/install/prerequisites/) to install it.
 
 Here you can pick your [installation](/wiki/install) wiki for:
 - [WAR package (Tomcat)](/wiki/install/war)

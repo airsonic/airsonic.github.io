@@ -1,8 +1,6 @@
 ---
 layout: wiki
-title: Exemple
+title: Libresonic installation exemples
 permalink: /wiki/install/exemple/
 ---
-## Libresonic installation exemples
-
 - [FreeBSD / FreeNAS installation](/wiki/install/exemple/freebsd-freenas/)

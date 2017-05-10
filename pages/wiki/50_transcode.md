@@ -1,10 +1,8 @@
 ---
 layout: wiki
-title: Transcode
+title: Setting up transcoding binaries
 permalink: /wiki/transcode/
 ---
-## Setting up transcoding binaries
-
 #### About transcoding
 
 Transcoders are used by Libresonic to convert media from their on disk format to a format that can be consumed by clients. This is done not only for compatibility but also to save bandwidth when dealing with heavier file types. For example, although your library might use the flac format, bandwidth can be saved by converting to mp3 before transmission.

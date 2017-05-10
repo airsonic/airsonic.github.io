@@ -17,6 +17,7 @@ exclude:
 github_url: "https://github.com/Libresonic/libresonic"
 github_website_url: "https://github.com/Libresonic/Libresonic.github.io"
 demo_url: "#"
-
 repo: "https://libresonic.org/release"
+
+# Version bump
 stable_version: "6.2"

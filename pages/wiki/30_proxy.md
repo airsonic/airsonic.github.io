@@ -1,10 +1,8 @@
 ---
 layout: wiki
-title: Proxy
+title: Setting up a reverse proxy
 permalink: /wiki/proxy/
 ---
-## Setting up a reverse proxy
-
 A reverse proxy is a public-facing web server sitting in front of an internal server such as Libresonic. The Libresonic server never communicates with the outside ; instead, the reverse proxy handles all HTTP(S) requests and forwards them to Libresonic.
 
 This is useful in many ways, such as gathering all web configuration in the same place. It also handles some options (HTTPS) much better than the bundled Libresonic server or a servlet container such as Tomcat.

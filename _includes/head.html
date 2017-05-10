@@ -14,79 +14,30 @@
   <!-- js -->
   <script src="{{ site.baseurl }}/js/jquery.min.js" type="text/javascript"></script>
   <script src="{{ site.baseurl }}/js/smooth-scroll.min.js" type="text/javascript"></script>
-  <script src="{{site.baseurl }}/js/anchor.min.js" type="text/javascript"></script>
+  <script src="{{site.baseurl }}/js/toc.js" type="text/javascript"></script>
   <script type="text/javascript">
+    // Add box-shadows to header after scrolldown
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll > 0) {
             $(".header").addClass("raised");
-            $(".wiki-nav").addClass("raised");
         }
         else {
             $(".header").removeClass("raised");
-            $(".wiki-nav").removeClass("raised");
         }
     });
   </script>
   <script type="text/javascript">
-    (function(document, history, location) {
-    var HISTORY_SUPPORT = !!(history && history.pushState);
-
-    var anchorScrolls = {
-      ANCHOR_REGEX: /^#[^ ]+$/,
-      OFFSET_HEIGHT_PX: 100,
-
-      init: function() {
-        this.scrollToCurrent();
-        window.addEventListener('hashchange', this.scrollToCurrent.bind(this));
-        document.body.addEventListener('click', this.delegateAnchors.bind(this));
-      },
-
-      getFixedOffset: function() {
-        return this.OFFSET_HEIGHT_PX;
-      },
-
-      scrollIfAnchor: function(href, pushToHistory) {
-        var match, rect, anchorOffset;
-
-        if(!this.ANCHOR_REGEX.test(href)) {
-          return false;
-        }
-
-        match = document.getElementById(href.slice(1));
-
-        if(match) {
-          rect = match.getBoundingClientRect();
-          anchorOffset = window.pageYOffset + rect.top - this.getFixedOffset();
-          window.scrollTo(window.pageXOffset, anchorOffset);
-
-          if(HISTORY_SUPPORT && pushToHistory) {
-            history.pushState({}, document.title, location.pathname + href);
-          }
-        }
-
-        return !!match;
-      },
-
-      scrollToCurrent: function() {
-        this.scrollIfAnchor(window.location.hash);
-      },
-
-      delegateAnchors: function(e) {
-        var elem = e.target;
-
-        if(
-          elem.nodeName === 'A' &&
-          this.scrollIfAnchor(elem.getAttribute('href'), true)
-        ) {
-          e.preventDefault();
-        }
-      }
-    };
-
-    window.addEventListener(
-      'DOMContentLoaded', anchorScrolls.init.bind(anchorScrolls)
-    );
-    })(window.document, window.history, window.location);
+    // Add scrolltop button after some scrolldown
+    $(".scrolltop").hide();
+    $(function () {
+    	$(window).scroll(function () {
+    		if ($(this).scrollTop() > 500) {
+    			$('.scrolltop').fadeIn(800);
+    		} else {
+    			$('.scrolltop').fadeOut(800);
+    		}
+    	});
+    });
   </script>
 </head>

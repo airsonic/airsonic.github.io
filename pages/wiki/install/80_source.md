@@ -1,10 +1,8 @@
 ---
 layout: wiki
-title: Source
+title: Install Libresonic from source
 permalink: /wiki/install/source/
 ---
-## Install Libresonic from source
-
 ##### Prerequisites
 
 In order to build, install, and run Libresonic, you will need:
@@ -45,7 +43,7 @@ git checkout develop
 
 #### Building
 
-##### Build Libresonic WAR package
+##### Build Libresonic .war package
 
 Using Maven, build Libresonic:
 
@@ -59,7 +57,7 @@ You should now have a `.war` file:
 ls -l libresonic-main/target/libresonic.war
 ```
 
-Follow the [WAR installation](/wiki/install/war) page to deploy the Libresonic WAR file.
+Follow the [WAR installation](/wiki/install/war) page to deploy the Libresonic `.war` file.
 
 ##### Build Libresonic .deb package
 

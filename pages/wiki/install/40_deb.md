@@ -1,10 +1,8 @@
 ---
 layout: wiki
-title: Debian / Ubuntu
+title: Install Libresonic on Debian / Ubuntu
 permalink: /wiki/install/deb/
 ---
-## Install Libresonic on Debian / Ubuntu
-
 ##### Prerequisites
 
 In order to install and run Libresonic, you will need:

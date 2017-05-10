@@ -1,10 +1,8 @@
 ---
 layout: wiki
-title: Windows
+title: Install Libresonic on Windows
 permalink: /wiki/install/exe/
 ---
-## Install Libresonic on Windows
-
 ##### Prerequisites
 
 In order to install and run Libresonic, you will need:

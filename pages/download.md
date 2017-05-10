@@ -3,7 +3,6 @@ layout: page
 title: Download
 permalink: /download/
 ---
-
 ## Download
 
 <table class="u-full-width">
@@ -19,7 +18,7 @@ permalink: /download/
       <td><a class="button" href="/wiki/install/war-standalone/">Instructions</a></td>
     </tr>
 
-<!--
+<!-- untargeted builds are commented out (for now)
 
     <tr>
       <td><i class="fa fa-linux fa-fw"></i> Debian / Ubuntu</td>
@@ -55,7 +54,6 @@ permalink: /download/
 ##### Developers versions
 
 To download developers versions please use the [libresonic repository]({{ site.repo }}) or simply download the [develop war file]({{ site.repo }}/libresonic-develop.war).
-
 
 #### Terms of use
 

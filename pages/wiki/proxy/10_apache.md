@@ -1,10 +1,8 @@
 ---
 layout: wiki
-title: Set up Apache
+title: Setting up Apache
 permalink: /wiki/proxy/apache/
 ---
-## Setting up Apache
-
 The following configurations works for HTTP.
 
 Create a new virtual host file:

@@ -1,10 +1,8 @@
 ---
 layout: wiki
-title: WAR
+title: Tomcat WAR installation
 permalink: /wiki/install/war/
 ---
-## Tomcat WAR installation
-
 ##### Prerequisites
 
 In order to install and run Libresonic with Tomcat, you will need:
