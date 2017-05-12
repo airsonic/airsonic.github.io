@@ -183,16 +183,6 @@ CONTAINER SECTION
   text-justify: inter-word;
 }
 
-.container h3, .container h4, .container h5, .container h6 {
-  margin-top: 3rem;
-}
-
-.container h6 {
-  color: rgb(128, 41, 82);
-  font-weight: bold;
-  font-size: 2.5rem;
-}
-
 .container code {
   padding: 2px 4px;
   font-family: "Liberation Mono", Menlo, Courier, monospace;
@@ -337,6 +327,16 @@ DOCS SECTION
 
 .docs-nav .level-three a:hover, .docs-nav .level-three a.active {
   padding-left: 3rem;
+}
+
+.docs-content-column h3, .docs-content-column h4, .docs-content-column h5, .docs-content-column h6 {
+  margin-top: 3rem;
+}
+
+.docs-content-column h6 {
+  color: rgb(128, 41, 82);
+  font-weight: bold;
+  font-size: 2.5rem;
 }
 
 /*
