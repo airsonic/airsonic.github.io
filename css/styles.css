@@ -394,7 +394,8 @@ TOC
 
 .toc-title {
   font-weight: bold;
-  margin: 1rem;
+  margin: 1rem !important;
+  margin-top: 1rem !important;
 }
 
 .toc-ul {
