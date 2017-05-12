@@ -57,7 +57,7 @@ You should now have a `.war` file:
 ls -l libresonic-main/target/libresonic.war
 ```
 
-Follow the [WAR installation guide](/docs/install/war) to deploy the Libresonic `.war` file.
+Follow the [WAR installation guide]({{ site.baseurl }}/docs/install/war) to deploy the Libresonic `.war` file.
 
 ##### Build Libresonic .deb package
 
@@ -77,7 +77,7 @@ You should now have a `.deb` file:
 ls -l libresonic-installer-debian/target/libresonic--.deb
 ```
 
-Follow the [Debian / Ubuntu installation guide](/docs/install/deb) to install the Libresonic `.deb` package.
+Follow the [Debian / Ubuntu installation guide]({{ site.baseurl }}/docs/install/deb) to install the Libresonic `.deb` package.
 
 ##### Build Libresonic .rpm package
 
@@ -97,7 +97,7 @@ You should now have a `.rpm` file:
 ls -l libresonic-installer-rpm/target/libresonic--.rpm
 ```
 
-Follow the [Red Hat / Fedora installation guide](/docs/install/rpm) to install the Libresonic `.rpm` package.
+Follow the [Red Hat / Fedora installation guide]({{ site.baseurl }}/docs/install/rpm) to install the Libresonic `.rpm` package.
 
 ##### Additional release archives
 

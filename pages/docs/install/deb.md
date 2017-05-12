@@ -10,7 +10,7 @@ In order to install and run Libresonic, you will need:
 
 #### Install Libresonic package
 
-Download the latest Libresonic .deb package from the [download page](/download), or with the command below:
+Download the latest Libresonic .deb package from the [download page]({{ site.baseurl }}/download), or with the command below:
 
 ```
 wget {{ site.repo }}/libresonic-v{{ site.stable_version }}.deb

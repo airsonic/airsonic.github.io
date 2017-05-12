@@ -13,7 +13,7 @@ In order to install and run Libresonic with Tomcat, you will need:
 
 ##### On Debian 8 / Ubuntu > 16.04
 
-Download the latest Libresonic .war package from the [download page](/download), or with the command below:
+Download the latest Libresonic .war package from the [download page]({{ site.baseurl }}/download), or with the command below:
 
 ```
 wget {{ site.repo }}/libresonic-v{{ site.stable_version }}.war
