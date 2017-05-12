@@ -23,12 +23,22 @@ h1, h2, h3, h4, h5, h6 {
   text-justify: initial;
 }
 
+h3, h4, h5, h6 {
+  margin-top: 3rem;
+}
+
 h4 {
   color: rgb(47, 123, 217);
 }
 
 h5 {
   color: rgb(217, 56, 47);
+}
+
+h6 {
+  color: rgb(128, 41, 82);
+  font-weight: bold;
+  font-size: 2.5rem;
 }
 
 .button-primary {
