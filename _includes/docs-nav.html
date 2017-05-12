@@ -7,17 +7,17 @@
     <ul>
       {% for item in site.data.docs-nav %}
         <li>
-          <a href="{{ site.baseurl }}{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}{% if item.subcategories[0] %}<i class="fa fa-angle-double-down fa-fw"></i>{% endif %}</a>
+          <a href="{{ site.baseurl }}{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}</a>
           {% if item.subcategories[0] %}
-            <ul>
+            <ul class="level-two">
               {% for item in item.subcategories %}
                 <li>
-                  <a href="{{ site.baseurl }}{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>- {{ item.title }}{% if item.subcategories[0] %}<i class="fa fa-angle-down fa-fw"></i>{% endif %}</a>
+                  <a href="{{ site.baseurl }}{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}><i class="fa fa-chevron-right fa-fw"></i>{{ item.title }}</a>
                   {% if item.subcategories[0] %}
-                    <ul>
+                    <ul class="level-three">
                       {% for item in item.subcategories %}
                         <li>
-                          <a href="{{ site.baseurl }}{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>= {{ item.title }}</a>
+                          <a href="{{ site.baseurl }}{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}><i class="fa fa-chevron-right fa-fw"></i>{{ item.title }}</a>
                         </li>
                       {% endfor %}
                     </ul>
