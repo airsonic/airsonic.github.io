@@ -12,12 +12,12 @@
             <ul>
               {% for item in item.subcategories %}
                 <li>
-                  <a href="{{ site.baseurl }}{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}{% if item.subcategories[0] %}<i class="fa fa-angle-down fa-fw"></i>{% endif %}</a>
+                  <a href="{{ site.baseurl }}{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>- {{ item.title }}{% if item.subcategories[0] %}<i class="fa fa-angle-down fa-fw"></i>{% endif %}</a>
                   {% if item.subcategories[0] %}
                     <ul>
                       {% for item in item.subcategories %}
                         <li>
-                          <a href="{{ site.baseurl }}{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}</a>
+                          <a href="{{ site.baseurl }}{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>= {{ item.title }}</a>
                         </li>
                       {% endfor %}
                     </ul>
