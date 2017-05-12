@@ -26,6 +26,9 @@
         - title: "FreeBSD/NAS"
           href: "/docs/install/exemple/freebsd-freenas/"
 
+- title: "Configure"
+  href: "/docs/configure/"
+
 - title: "Proxy"
   href: "/docs/proxy/"
   subcategories:
