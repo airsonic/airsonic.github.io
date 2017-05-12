@@ -1,0 +1,52 @@
+---
+# Max 3 level navigation
+
+- title: "Install"
+  href: "/docs/install/"
+  subcategories:
+    - title: "Prerequisites"
+      href: "/docs/install/prerequisites/"
+    - title: "WAR"
+      href: "/docs/install/war/"
+    - title: "Stand-alone"
+      href: "/docs/install/war-standalone/"
+    - title: "DEB"
+      href: "/docs/install/deb/"
+    - title: "RPM"
+      href: "/docs/install/rpm/"
+    - title: "EXE"
+      href: "/docs/install/exe/"
+    - title: "PKG"
+      href: "/docs/install/pkg/"
+    - title: "Source"
+      href: "/docs/install/source/"
+    - title: "Exemple"
+      href: "/docs/install/exemple/"
+      subcategories:
+        - title: "FreeBSD/NAS"
+          href: "/docs/install/exemple/freebsd-freenas/"
+
+- title: "Proxy"
+  href: "/docs/proxy/"
+  subcategories:
+    - title: "Apache"
+      href: "/docs/proxy/apache/"
+    - title: "Nginx"
+      href: "/docs/proxy/nginx/"
+    - title: "HAproxy"
+      href: "/docs/proxy/haproxy/"
+
+- title: "Migrate"
+  href: "/docs/migrate/"
+
+- title: "Database"
+  href: "/docs/database/"
+
+- title: "Transcode"
+  href: "/docs/transcode/"
+
+- title: "LDAP"
+  href: "/docs/ldap/"
+
+- title: "Apps"
+  href: "/docs/apps/"

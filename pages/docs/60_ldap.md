@@ -1,6 +1,6 @@
 ---
-layout: wiki
+layout: docs
 title: Setting up a LDAP configuration
-permalink: /wiki/ldap/
+permalink: /docs/ldap/
 ---
 **Work in progress**

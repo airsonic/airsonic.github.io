@@ -5,7 +5,7 @@
       noBackToTopLinks: false,
       title: '<h6 class="toc-title">Table of content</h6>',
       minimumHeaders: 3,
-      headers: '.wiki-content-column h4, .wiki-content-column h5, .wiki-content-column h6',
+      headers: '.docs-content-column h4, .docs-content-column h5, .docs-content-column h6',
       listType: 'ul', // values: [ol|ul]
       showEffect: 'none', // values: [show|slideDown|fadeIn|none]
       showSpeed: '0', // set to 0 to deactivate effect

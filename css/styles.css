@@ -266,10 +266,10 @@ CONTAINER SECTION
 }
 
 /*
-WIKI SECTION
+DOCS SECTION
 */
 
-.wiki-nav-column {
+.docs-nav-column {
   text-align: normal;
   text-justify: normal;
   overflow-x: auto;
@@ -278,34 +278,34 @@ WIKI SECTION
   top: 10vh;
 }
 
-.wiki-nav {
+.docs-nav {
   border-left: 0.5rem solid #295280;
 }
 
-.wiki-nav ul {
+.docs-nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.wiki-nav li {
+.docs-nav li {
   padding: 0;
   margin: 0;
   display: block;
 }
 
-.wiki-nav a {
+.docs-nav a {
   text-decoration: none;
   display: block;
   padding: 0.2rem 2rem;
   font-weight: bold;
 }
 
-.wiki-nav a:hover {
+.docs-nav a:hover {
   background: rgba(0, 0, 0, 0.1);
 }
 
-.wiki-nav a.active {
+.docs-nav a.active {
   background: rgba(0, 0, 0, 0.2);
 }
 

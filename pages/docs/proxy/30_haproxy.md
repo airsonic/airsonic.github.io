@@ -1,7 +1,7 @@
 ---
-layout: wiki
+layout: docs
 title: Setting up HAproxy
-permalink: /wiki/proxy/haproxy/
+permalink: /docs/proxy/haproxy/
 ---
 Open the haproxy configuration file:
 

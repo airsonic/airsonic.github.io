@@ -1,12 +1,12 @@
 ---
-layout: wiki
+layout: docs
 title: Tomcat WAR installation
-permalink: /wiki/install/war/
+permalink: /docs/install/war/
 ---
 ##### Prerequisites
 
 In order to install and run Libresonic with Tomcat, you will need:
-- [A JDK installation, 1.8.x series of OpenJDK or Oracle JDK 8+ should work.]({{ site.baseurl }}/wiki/install/prerequisites)
+- [A JDK installation, 1.8.x series of OpenJDK or Oracle JDK 8+ should work.]({{ site.baseurl }}/docs/install/prerequisites)
 - A running [Tomcat](http://tomcat.apache.org/) server. If you're unfamiliar with Tomcat, there are many [guides](https://www.digitalocean.com/community/tags/java?q=How+to+install+tomcat8&type=tutorials) on it.
 
 #### Deploy Libresonic WAR package

@@ -1,9 +1,11 @@
-<h2>Wiki</h2>
+<br>
 
-<nav class="wiki-nav">
-  {% if site.data.wiki-nav[0] %}
+<h5>Navigation</h5>
+
+<nav class="docs-nav">
+  {% if site.data.docs-nav[0] %}
     <ul>
-      {% for item in site.data.wiki-nav %}
+      {% for item in site.data.docs-nav %}
         <li>
           <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}{% if item.subcategories[0] %}<i class="fa fa-angle-double-down fa-fw"></i>{% endif %}</a>
           {% if item.subcategories[0] %}

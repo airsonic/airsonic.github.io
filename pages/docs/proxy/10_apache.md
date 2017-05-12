@@ -1,7 +1,7 @@
 ---
-layout: wiki
+layout: docs
 title: Setting up Apache
-permalink: /wiki/proxy/apache/
+permalink: /docs/proxy/apache/
 ---
 The following configurations works for HTTP.
 

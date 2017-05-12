@@ -1,7 +1,7 @@
 ---
-layout: wiki
+layout: docs
 title: Setting up an external database
-permalink: /wiki/database/
+permalink: /docs/database/
 ---
 Libresonic is built with generic ANSI SQL (for the most part) and uses [Liquibase](http://www.liquibase.org/) for database migrations in a database agnostic way and should be able to run against a variety of databases. However, not all databases have been verified to work and you may run into issues with the liquibase migrations or runtime SQL issues. Here is a list of community tested setups:
 

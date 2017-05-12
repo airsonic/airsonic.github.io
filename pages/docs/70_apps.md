@@ -1,6 +1,6 @@
 ---
-layout: wiki
+layout: docs
 title: Libresonic applications
-permalink: /wiki/apps/
+permalink: /docs/apps/
 ---
 **Work in progress**

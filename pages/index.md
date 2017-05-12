@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title:
 permalink: /
 ---
 ## What is Libresonic?

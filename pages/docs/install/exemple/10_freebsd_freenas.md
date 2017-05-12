@@ -1,7 +1,7 @@
 ---
-layout: wiki
+layout: docs
 title: Installing Libresonic on FreeBSD 10.3 and FreeNAS 9.10
-permalink: /wiki/install/exemple/freebsd-freenas/
+permalink: /docs/install/exemple/freebsd-freenas/
 ---
 #### Preamble
 

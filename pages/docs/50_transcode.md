@@ -1,7 +1,7 @@
 ---
-layout: wiki
+layout: docs
 title: Setting up transcoding binaries
-permalink: /wiki/transcode/
+permalink: /docs/transcode/
 ---
 #### About transcoding
 

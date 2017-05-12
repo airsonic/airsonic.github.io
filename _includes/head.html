@@ -1,7 +1,7 @@
 <head>
   <!-- meta -->
   <meta charset="UTF-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
+  <title>{% if page.title != null %}{{ page.title }} - {% endif %}{{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#2f7bd9">
   <meta name="robots" content="none">

@@ -1,13 +1,13 @@
 ---
-layout: wiki
+layout: docs
 title: Setting up a reverse proxy
-permalink: /wiki/proxy/
+permalink: /docs/proxy/
 ---
 A reverse proxy is a public-facing web server sitting in front of an internal server such as Libresonic. The Libresonic server never communicates with the outside ; instead, the reverse proxy handles all HTTP(S) requests and forwards them to Libresonic.
 
 This is useful in many ways, such as gathering all web configuration in the same place. It also handles some options (HTTPS) much better than the bundled Libresonic server or a servlet container such as Tomcat.
 
-This guide assumes you already have a working Libresonic installation after following the [installation guide](/wiki/install).
+This guide assumes you already have a working Libresonic installation after following the [installation guide](/docs/install).
 
 ## Getting a TLS certificate
 
@@ -66,7 +66,7 @@ Currently this is used wherever, `NetworkService#getBaseUrl` is called. A couple
 
 ## Provided configurations
 
-Use a wiki in the list below:
-- [Configure Apache proxy](/wiki/proxy/apache)
-- [Configure Nginx proxy](/wiki/proxy/nginx)
-- [Configure Haproxy proxy](/wiki/proxy/haproxy)
+Use a guide in the list below:
+- [Configure Apache proxy](/docs/proxy/apache)
+- [Configure Nginx proxy](/docs/proxy/nginx)
+- [Configure Haproxy proxy](/docs/proxy/haproxy)

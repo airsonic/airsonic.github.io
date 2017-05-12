@@ -1,7 +1,7 @@
 ---
-layout: wiki
+layout: docs
 title: Libresonic prerequisites installation
-permalink: /wiki/install/prerequisites/
+permalink: /docs/install/prerequisites/
 ---
 To get Libresonic running, we are going to install OpenJDK 8 or Oracle JDK 8, set the default `JAVA_HOME`, and finally deploy our Libresonic WAR package.
 
@@ -94,7 +94,7 @@ JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
 ##### On Red Hat / Fedora
 
-Please follow this [well documented tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora#install-oracle-java-8) to install Java 8  and set default JAVA_HOME on your device.
+Please follow this [well documented guide](https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora#install-oracle-java-8) to install Java 8  and set default JAVA_HOME on your device.
 
 ##### On Windows
 

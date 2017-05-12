@@ -1,13 +1,13 @@
 ---
-layout: wiki
+layout: docs
 title: Migrating from Subsonic to Libresonic
-permalink: /wiki/migrate/
+permalink: /docs/migrate/
 ---
 This guide helps you to migrate your data from Subsonic to Libresonic. It has been tested with Subsonic 5 to Libresonic 6.
 
 #### Install Libresonic
 
-Install Libresonic as described in the [install wiki](/wiki/install).
+Install Libresonic as described in the [install guide](/docs/install).
 
 #### Migrate to Libresonic
 

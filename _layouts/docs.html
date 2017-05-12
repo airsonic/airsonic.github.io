@@ -10,12 +10,12 @@
 
     <div class="container">
       <div class="row">
-        <div class="three columns wiki-nav-column">
+        <div class="three columns docs-nav-column">
 
-          {% include wiki-nav.html %}
+          {% include docs-nav.html %}
 
         </div>
-        <div class="nine columns wiki-content-column">
+        <div class="nine columns docs-content-column">
 
           <h2>{{ page.title }}</h2>
 
@@ -24,7 +24,7 @@
           {{ content }}
 
           <script type="text/javascript">
-            // init toc after wiki content load
+            // init toc after docs content load
             $(document).ready(function() {
               $('#toc').toc();
             });

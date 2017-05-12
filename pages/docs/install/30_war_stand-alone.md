@@ -1,7 +1,7 @@
 ---
-layout: wiki
+layout: docs
 title: Stand-alone WAR installation
-permalink: /wiki/install/war-standalone/
+permalink: /docs/install/war-standalone/
 ---
 If you'd prefer not to use a Tomcat container, you can also run Libresonic as a standalone application.
 Note that, in that case, libresonic will available at `http://localhost:8080` (and not `http://localhost:8080/libresonic`).
@@ -9,7 +9,7 @@ Note that, in that case, libresonic will available at `http://localhost:8080` (a
 ##### Prerequisites
 
 In order to install and run Libresonic, you will need:
-- [A JDK installation, 1.8.x series of OpenJDK or Oracle JDK 8+ should work.]({{ site.baseurl }}/wiki/install/prerequisites)
+- [A JDK installation, 1.8.x series of OpenJDK or Oracle JDK 8+ should work.]({{ site.baseurl }}/docs/install/prerequisites)
 - A running [Tomcat](http://tomcat.apache.org/) server. If you're unfamiliar with Tomcat, there are many [guides](https://www.digitalocean.com/community/tags/java?q=How+to+install+tomcat8&type=tutorials) on it.
 
 #### Run Libresonic WAR package
