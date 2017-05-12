@@ -1,4 +1,4 @@
-/*
+  /*
 COMMON SECTION
 */
 
@@ -297,16 +297,36 @@ DOCS SECTION
 .docs-nav a {
   text-decoration: none;
   display: block;
-  padding: 0.2rem 2rem;
+  padding: 0.2rem 1rem;
   font-weight: bold;
+  -webkit-transition: padding 0.2s ease;
+  transition: padding 0.2s ease;
 }
 
 .docs-nav a:hover {
   background: rgba(0, 0, 0, 0.1);
+  padding-left: 1.5rem;
 }
 
 .docs-nav a.active {
   background: rgba(0, 0, 0, 0.2);
+  padding-left: 1.5rem;
+}
+
+.docs-nav .level-two a {
+  padding-left: 1.5rem;
+}
+
+.docs-nav .level-two a:hover, .docs-nav .level-two a.active {
+  padding-left: 2rem;
+}
+
+.docs-nav .level-three a {
+  padding-left: 2.5rem;
+}
+
+.docs-nav .level-three a:hover, .docs-nav .level-three a.active {
+  padding-left: 3rem;
 }
 
 /*
@@ -423,12 +443,12 @@ SCROLLTOP
 */
 
 #not-found {
-  text-align: center;
   margin-top: 40vh;
-  font-weight: bold;
 }
 
-#not-found a {
+#not-found * {
+  text-align: center;
+  font-weight: bold;
   text-decoration: none;
 }
 
