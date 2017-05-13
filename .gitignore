@@ -1,2 +1,6 @@
+# Gemfile disabled for work
+Gemfile
+
+# Jekyll
 _site
 Gemfile.lock
