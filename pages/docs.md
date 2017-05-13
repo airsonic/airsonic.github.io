@@ -11,7 +11,7 @@ Before installing Libresonic, you will have to install a working JDK. Follow thi
 
 Here you can pick your [installation]({{ site.baseurl }}/docs/install) docs for:
 - [WAR package (Tomcat)]({{ site.baseurl }}/docs/install/war)
-- [Jar package (Standalone)]({{ site.baseurl }}/docs/install/jar)
+- [WAR package (Standalone)]({{ site.baseurl }}/docs/install/war-standalone)
 - [Deb package (Debian / Ubuntu)]({{ site.baseurl }}/docs/install/deb)
 - [Rpm package (Red Hat / Fedora)]({{ site.baseurl }}/docs/install/rpm)
 - [Exe package (Windows)]({{ site.baseurl }}/docs/install/exe)
