@@ -15,9 +15,9 @@ These parameters are not modifiable through the web interface. See below for ste
 
 ###### libresonic.home
 
-> This parameter dictates the folder where Libresonic will store its logs, settings, transcode binaries, index and database if using the default H2 database. As such it is recommended to backup this folder.
->
-> **Default: `/var/libresonic` or `C:\\music`**
+This parameter dictates the folder where Libresonic will store its logs, settings, transcode binaries, index and database if using the default H2 database. As such it is recommended to backup this folder.
+
+> Default: `/var/libresonic` or `C:\\music`
 
 
 #### Setting java parameters on Tomcat
@@ -46,12 +46,12 @@ The following configs only apply when running libresonic as a standalone package
 
 ###### server.port
 
-> This property only applies for spring boot/standalone config. It changes the port that the standalone package listens on.
->
+This property only applies for spring boot/standalone config. It changes the port that the standalone package listens on.
+
 > Default: 8080
 
 ###### server.address
 
-> This property only applies for spring boot/standalone config. It changes the address that the standalone package listens on.
->
+This property only applies for spring boot/standalone config. It changes the address that the standalone package listens on.
+
 > Default: not set and listens to all addresses

@@ -5,7 +5,7 @@ permalink: /download/
 ---
 ## Download
 
-<table class="u-full-width">
+<table class="full-width">
   <tbody>
     <tr>
       <td><i class="fa fa-coffee fa-fw"></i> WAR version (all platforms)</td>

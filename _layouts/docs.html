@@ -4,18 +4,17 @@
   {% include head.html %}
 
   <body>
-    <span id="#"></span>
 
     {% include header.html %}
 
     <div class="container">
       <div class="row">
-        <div class="three columns docs-nav-column">
+        <div id="docs-nav-column" class="three columns">
 
           {% include docs-nav.html %}
 
         </div>
-        <div class="nine columns docs-content-column">
+        <div id="docs-content-column" class="nine columns">
 
           <h2>{{ page.title }}</h2>
 
@@ -32,7 +31,7 @@
         </div>
       </div>
     </div>
-    <a data-scroll class="scrolltop" href="#"><i class="fa fa-chevron-up fa-fw"></i></a>
+    <a data-scroll id="scrolltop" href="#"><i class="fa fa-chevron-up fa-fw"></i></a>
 
     {% include footer.html %}
 
