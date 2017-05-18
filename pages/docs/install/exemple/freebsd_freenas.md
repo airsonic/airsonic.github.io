@@ -43,10 +43,11 @@ version="1.0">
 
 </tomcat-users>
 ```
+
 > Note: If you wish to use a different username and password please append the second last line to contain your preferred username and password.
-```
-<user username="yourusername" password="yourpassword" roles="manager-gui,manager-script,manager-jmx,manager-status,admin-gui,admin-script"/>
-```
+> ```
+> <user username="yourusername" password="yourpassword" roles="manager-gui,manager-script,manager-jmx,manager-status,admin-gui,admin-script"/>
+> ```
 
 #### Start and test Tomcat
 
@@ -89,7 +90,7 @@ Scroll down to Deploy and the subheading "WAR file to deploy" hit choose file an
 In a browser. Take your `SERVER_IP` and `PORT` and append the the context path from above.
 
 > ie if the War deployed was called libresonic-v6.1.beta2.war navigate to:
-10.0.0.10:8080/libresonic-v6.1.beta2/
+> 10.0.0.10:8080/libresonic-v6.1.beta2/
 
 #### Log into Libresonic
 
