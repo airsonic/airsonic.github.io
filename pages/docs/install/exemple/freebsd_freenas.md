@@ -44,7 +44,9 @@ version="1.0">
 </tomcat-users>
 ```
 > Note: If you wish to use a different username and password please append the second last line to contain your preferred username and password.
-`<user username="yourusername" password="yourpassword" roles="manager-gui,manager-script,manager-jmx,manager-status,admin-gui,admin-script"/>`
+```
+<user username="yourusername" password="yourpassword" roles="manager-gui,manager-script,manager-jmx,manager-status,admin-gui,admin-script"/>
+```
 
 #### Start and test Tomcat
 
