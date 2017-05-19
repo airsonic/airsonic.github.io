@@ -178,7 +178,7 @@ HEADER SECTION
     position: sticky;
     top: 0;
     width: 100%;
-    height: 10%;
+    height: 6rem;
     margin-bottom: 6rem;
     background-color: #fff;
     color: $blue;
@@ -189,7 +189,7 @@ HEADER SECTION
         margin: 0 10%;
         width: 80%;
         .title {
-            margin: 1.5rem 0rem;
+            margin-top: 0.5rem;
             a {
                 font-weight: 400;
                 font-size: 3rem;
@@ -201,17 +201,16 @@ HEADER SECTION
                 list-style: none;
                 margin: 0;
                 padding: 0;
+                margin-top: 1.75rem;
             }
             li {
                 display: inline-block;
-                margin-top: 2.5rem;
-                margin-bottom: 2.5rem;
             }
             li + li {
                 margin-left: 2rem;
             }
             a {
-                font-size: 1.7rem;
+                font-size: 1.6rem;
                 text-decoration: none;
                 padding: 0.75rem 1rem;
                 border-radius: 1rem;
@@ -442,12 +441,12 @@ DOCS SECTION
 #docs-nav-column {
     text-align: normal;
     text-justify: normal;
-    overflow-x: auto;
-    max-height: 75vh;
     position: sticky;
-    top: 10vh;
+    top: 8rem;
     nav {
         border-left: 0.5rem solid $dark-blue;
+        overflow-x: auto;
+        max-height: 75vh;
         ul {
             padding: 0;
             margin: 0;
