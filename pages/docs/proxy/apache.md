@@ -20,6 +20,7 @@ Paste the following configuration in the virtual host file:
     DocumentRoot      /var/www
     ProxyPass         /libresonic http://127.0.0.1:8080/libresonic
     ProxyPassReverse  /libresonic http://127.0.0.1:8080/libresonic
+    RequestHeader set X-Forwarded-Proto "http"
 </VirtualHost>
 ```
 
