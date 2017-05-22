@@ -252,31 +252,13 @@ HEADER SECTION
         .wrap {
             margin: 0;
             width: 100%;
-            text-align: center;
             .title {
-                float: none;
-                text-align: center;
-                margin: 0;
-                padding: 0.5rem 0;
+                margin-left: 1rem;
             }
-            .menu {
-                float: none;
-                ul {
-                    padding-bottom: 2px;
-                }
-                li {
-                    display: block;
-                    text-align: center;
-                    margin-top: 1rem;
-                    margin-bottom: 1rem;
-                    & + li {
-                        margin: 1rem 1rem;
-                    }
-                }
-                a {
-                    display: block;
-                    font-size: 1.5rem;
-                    border-radius: 1rem;
+            .menu li {
+                margin-left: 0.5rem;
+                & + li {
+                    margin-left: 0rem;
                 }
             }
         }
@@ -494,10 +476,6 @@ DOCS SECTION
         font-size: 2.5rem;
     }
 }
-
-//
-// Navgoco
-//
 
 .navgoco li {
     & > a > span {
