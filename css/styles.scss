@@ -462,29 +462,27 @@ DOCS SECTION
                     padding: 0.2rem 1rem;
                     font-weight: bold;
                     font-size: 85%;
-                    transition: padding 0.2s ease;
                     &:hover {
                         background: $light-grey;
-                        padding-left: 1.5rem;
                     }
                     &.active {
                         background: $grey;
-                        padding-left: 1.5rem;
                     }
                 }
             }
         }
     }
-    .level-two a {
-        padding-left: 1.5rem;
-        &:hover, &.active {
-            padding-left: 2rem;
+    .level-two {
+        background: rgba(0, 0, 0, 0.1);
+        a {
+            padding-left: 1.5rem;
         }
     }
-    .level-three a {
-        padding-left: 2.5rem;
-        &:hover, &.active {
-            padding-left: 3rem;
+
+    .level-three {
+        background: rgba(0, 0, 0, 0.1);
+        a {
+            padding-left: 2.5rem;
         }
     }
 }
@@ -494,6 +492,22 @@ DOCS SECTION
         color: rgb(128, 41, 82);
         font-weight: bold;
         font-size: 2.5rem;
+    }
+}
+
+//
+// Navgoco
+//
+
+.navgoco li {
+    & > a > span {
+        float: right;
+        & > i {
+            transition: all 0.2s ease-in-out;
+        }
+    }
+    &.active > a > span > i {
+        transform: rotate(-180deg);
     }
 }
 
