@@ -2,7 +2,6 @@
 # Max 3 level navigation
 
 - title: "Install"
-  href: "/docs/install/"
   subcategories:
     - title: "Prerequisites"
       href: "/docs/install/prerequisites/"
@@ -21,7 +20,6 @@
     - title: "Source"
       href: "/docs/install/source/"
     - title: "Exemple"
-      href: "/docs/install/exemple/"
       subcategories:
         - title: "FreeBSD/NAS"
           href: "/docs/install/exemple/freebsd-freenas/"
@@ -30,8 +28,9 @@
   href: "/docs/configure/"
 
 - title: "Proxy"
-  href: "/docs/proxy/"
   subcategories:
+    - title: "Prerequisites"
+      href: "/docs/proxy/prerequisites/"
     - title: "Apache"
       href: "/docs/proxy/apache/"
     - title: "Nginx"
