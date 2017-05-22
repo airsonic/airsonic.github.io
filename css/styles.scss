@@ -498,27 +498,6 @@ DOCS SECTION
 }
 
 /*
-CONTRIBUTE SECTION
-*/
-
-.contribute {
-    margin: 10rem;
-    text-align: center;
-    a {
-          text-decoration: none;
-    }
-    & + .contribute {
-          margin-bottom: 10rem;
-    }
-}
-
-@media screen and (max-width: 860px) {
-    .contribute div {
-        width: 50%;
-    }
-}
-
-/*
 FOOTER SECTION
 */
 
