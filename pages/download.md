@@ -18,7 +18,7 @@ permalink: /download/
       <td><a class="button" href="/docs/install/war-standalone/">Instructions</a></td>
     </tr>
 
-<!-- untargeted builds are commented out (for now)
+{% comment %} Build targets not suported yet
 
     <tr>
       <td><i class="fa fa-linux fa-fw"></i> Debian / Ubuntu</td>
@@ -41,7 +41,7 @@ permalink: /download/
       <td><a class="button" href="/docs/install/pkg/">Instructions</a></td>
     </tr>
 
--->
+{% endcomment %}
 
     <tr>
       <td><i class="fa fa-code fa-fw"></i> Source code</td>

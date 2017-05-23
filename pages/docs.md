@@ -13,7 +13,7 @@ Here you can pick your [installation](/docs/install) docs for:
 - [WAR package (Tomcat)](/docs/install/war)
 - [WAR package (Standalone)](/docs/install/war-standalone)
 
-{% comment %}
+{% comment %} Build targets not suported yet
 
 - [Deb package (Debian / Ubuntu)](/docs/install/deb)
 - [Rpm package (Red Hat / Fedora)](/docs/install/rpm)
