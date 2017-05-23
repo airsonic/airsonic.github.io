@@ -13,6 +13,8 @@
 // VARIABLES SECTION
 //
 
+$yellow: rgba(243, 241, 210, 1);
+
 $blue: rgb(47, 123, 217);
 $light-blue: rgba(47, 123, 217, 0.2);
 $dark-blue: rgb(41, 82, 128);
@@ -26,8 +28,8 @@ $light-purple: rgba(128, 41, 82, 0.2);
 $grey: rgb(204, 204, 204);
 $light-grey: rgba(204, 204, 204, 0.4);
 
-$dark: rgb(34, 34, 34);
-$light-dark: rgba(34, 34, 34, 0.6);
+$dark: rgb(12, 12, 12);
+$light-dark: rgb(34, 34, 34);
 
 /*
 DEFAULTS SECTION
@@ -42,13 +44,14 @@ html {
         line-height: 1.6;
         font-weight: 400;
         font-family: "Raleway", Helvetica, Arial, sans-serif;
-        color: $dark;
+        color: $light-dark;
     }
 }
 
 a {
     color: $blue;
     transition: color 0.2s ease-in-out;
+    text-decoration: none;
     &:hover {
         color: $red;
     }
@@ -63,8 +66,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 { font-size: 3.5rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 3.0rem; line-height: 1.25; letter-spacing: -.1rem; }
 h3 { font-size: 2.5rem; line-height: 1.3;  letter-spacing: -.1rem; }
-h4 { font-size: 2.0rem; line-height: 1.35; letter-spacing: -.08rem; color: $blue; }
-h5 { font-size: 1.5rem; line-height: 1.5;  letter-spacing: -.05rem; color: $red; }
+h4 { font-size: 2.0rem; line-height: 1.35; letter-spacing: -.08rem; color: $blue / 3; }
+h5 { font-size: 1.5rem; line-height: 1.5;  letter-spacing: -.05rem; color: $red;  }
 h6 { font-size: 1.0rem; line-height: 1.6;  letter-spacing: 0; color: $purple; }
 
 @media (min-width: 550px) {
@@ -78,6 +81,7 @@ h6 { font-size: 1.0rem; line-height: 1.6;  letter-spacing: 0; color: $purple; }
 
 p {
     margin-top: 0;
+    color: $dark;
 }
 
 .button {
@@ -283,13 +287,12 @@ CONTAINER SECTION
     }
     code {
         padding: .2rem .5rem;
-        margin: 0 .2rem;
+        margin: 0 .4rem;
         font-size: 90%;
         font-family: "Liberation Mono", Menlo, Courier, monospace;
         white-space: nowrap;
         color: #2d3e45;
         background: #f1f1f1;
-        border: 1px solid #e1e1e1;
         border-radius: 0.3rem;
     }
     pre > code {
@@ -305,7 +308,6 @@ CONTAINER SECTION
       color: #2d3e45;
       word-wrap: normal;
       background: #f1f1f1;
-      border: solid 1px #dce6f0;
       border-radius: 0.3rem;
       overflow: auto;
       line-height: 1.45;
@@ -325,11 +327,21 @@ CONTAINER SECTION
         content: normal;
     }
     blockquote {
-        padding: 0 1rem;
-        margin-left: 0;
-        border-left: 0.3rem solid #ba403c;
+        padding: 1rem;
+        background: $yellow;
+        margin: 0 0 1.5rem 0;
+        border-left: 0.3rem solid $red;
         li > div {
             margin-top: 1rem;
+        }
+        pre {
+            border: 1px solid #e1e1e1;
+        }
+        code {
+            border: 1px solid #e1e1e1;
+        }
+        pre code, pre tt {
+            border: 0;
         }
         & > :first-child {
             margin-top: 0;
@@ -443,6 +455,7 @@ DOCS SECTION
                     padding: 0.2rem 1rem;
                     font-weight: bold;
                     font-size: 94%;
+                    color: $dark-blue;
                     &:hover {
                         background: $light-grey;
                     }
