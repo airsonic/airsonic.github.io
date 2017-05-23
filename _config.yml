@@ -12,6 +12,8 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENSE.txt
+# docs > developer
+  - developer/
 
 # Vars
 github_url: "https://github.com/Libresonic/libresonic"
