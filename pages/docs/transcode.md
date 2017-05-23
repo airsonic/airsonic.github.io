@@ -35,7 +35,7 @@ ls -alh
 ```
 lrwxrwxrwx 1 user user   15 mai    4 19:57 ffmpeg -> /usr/bin/ffmpeg
 ```
-> Note that `user` has te be the use that runs Libresonic
+> Note that `user` has te be the user that runs Libresonic
 
 ##### On Ubuntu > 16.04
 
@@ -58,7 +58,7 @@ ls -alh
 ```
 lrwxrwxrwx 1 user user   15 mai    4 19:57 ffmpeg -> /usr/bin/ffmpeg
 ```
-> Note that `user` has te be the use that runs Libresonic
+> Note that `user` has te be the user that runs Libresonic
 
 ##### On Red Hat / Fedora
 ```
@@ -79,7 +79,7 @@ ls -alh
 ```
 lrwxrwxrwx 1 user user   15 mai    4 19:57 ffmpeg -> /usr/bin/ffmpeg
 ```
-> Note that `user` has te be the use that runs Libresonic
+> Note that `user` has te be the user that runs Libresonic
 
 ##### On Windows
 
@@ -108,4 +108,4 @@ ls -alh
 ```
 lrwxrwxrwx 1 user user   15 mai    4 19:57 ffmpeg -> /usr/bin/ffmpeg
 ```
-> Note that `user` has te be the use that runs Libresonic
+> Note that `user` has te be the user that runs Libresonic
