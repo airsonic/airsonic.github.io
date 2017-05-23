@@ -22,10 +22,10 @@
 #      href: "/docs/install/pkg/"
 #    - title: "Source"
 #      href: "/docs/install/source/"
-    - title: "Exemple"
+    - title: "Example"
       subcategories:
         - title: "FreeBSD/NAS"
-          href: "/docs/install/exemple/freebsd-freenas/"
+          href: "/docs/install/example/freebsd-freenas/"
 
 - title: "Configure"
   href: "/docs/configure/"
