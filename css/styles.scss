@@ -15,13 +15,13 @@
 
 $yellow: rgba(243, 241, 210, 1);
 $blue: rgba(47, 123, 217, 1);
-$dark-blue: $blue/2;
+$dark-blue: rgba(24, 62, 109, 1);
 $red: rgba(217, 56, 47, 1);
 $purple: rgba(128, 41, 82, 1);
 $grey: rgba(204, 204, 204, 1);
-$light-grey: $grey/0.5;
+$light-grey: rgba(245, 245, 245, 1);
 $dark: rgba(12, 12, 12, 1);
-$light-dark: $dark/0.5;
+$light-dark: rgba(24, 24, 24, 1);
 
 $overlay: rgba(0, 0, 0, 0.1);
 
@@ -219,9 +219,6 @@ HEADER SECTION
                 }
                 &.active {
                     background: $light-grey;
-                    &:hover {
-                        border-color: $grey;
-                    }
                 }
             }
         }
