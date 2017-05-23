@@ -32,7 +32,10 @@ cd transcode/
 ln -s /usr/bin/ffmpeg
 ls -alh
 ```
-> Note : Ensure the files has the correct permissions.
+```
+lrwxrwxrwx 1 user user   15 mai    4 19:57 ffmpeg -> /usr/bin/ffmpeg
+```
+> Note that `user` has te be the use that runs Libresonic
 
 ##### On Ubuntu > 16.04
 
@@ -52,7 +55,10 @@ cd transcode/
 ln -s /usr/bin/ffmpeg
 ls -alh
 ```
-> Note : Ensure the files has the correct permissions.
+```
+lrwxrwxrwx 1 user user   15 mai    4 19:57 ffmpeg -> /usr/bin/ffmpeg
+```
+> Note that `user` has te be the use that runs Libresonic
 
 ##### On Red Hat / Fedora
 ```
@@ -70,7 +76,10 @@ cd transcode/
 ln -s /usr/bin/ffmpeg
 ls -alh
 ```
-> Note : Ensure the files has the correct permissions.
+```
+lrwxrwxrwx 1 user user   15 mai    4 19:57 ffmpeg -> /usr/bin/ffmpeg
+```
+> Note that `user` has te be the use that runs Libresonic
 
 ##### On Windows
 
@@ -96,3 +105,7 @@ cd transcode/
 ln -s /usr/bin/ffmpeg
 ls -alh
 ```
+```
+lrwxrwxrwx 1 user user   15 mai    4 19:57 ffmpeg -> /usr/bin/ffmpeg
+```
+> Note that `user` has te be the use that runs Libresonic
