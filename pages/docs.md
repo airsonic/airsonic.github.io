@@ -12,7 +12,8 @@ Before installing Libresonic, you will have to install a working JDK. Follow thi
 Here you can pick your [installation](/docs/install) docs for:
 - [WAR package (Tomcat)](/docs/install/war)
 - [WAR package (Standalone)](/docs/install/war-standalone)
-<!-- Removed since the package aren't build yet
+
+{% comment %}
 
 - [Deb package (Debian / Ubuntu)](/docs/install/deb)
 - [Rpm package (Red Hat / Fedora)](/docs/install/rpm)
@@ -20,7 +21,7 @@ Here you can pick your [installation](/docs/install) docs for:
 - [Pkg package (macOS)](/docs/install/pkg)
 - [Build from source](/docs/install/source)
 
--->
+{% endcomment %}
 
 If you come from [Subsonic](http://www.subsonic.org/pages/index.jsp), you can migrate using our [migration docs](/docs/migrate).
 
