@@ -56,7 +56,5 @@
 - title: "Apps"
   href: "/docs/apps/"
 
-- title: "Develop"
-  subcategories:
-    - title: "Logging"
-      href: "/docs/dev/logging/"
+- title: "Logging"
+  href: "/docs/logging/"

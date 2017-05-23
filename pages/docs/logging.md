@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Manage Libresonic logs
-permalink: /docs/dev/logging/
+permalink: /docs/logging/
 ---
 
 This guide explains how to manage Libresonic logs.
