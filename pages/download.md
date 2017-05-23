@@ -51,6 +51,10 @@ permalink: /download/
   </tbody>
 </table>
 
+##### Changelog
+
+Libresonic changelog can be found [here](/changelog/).
+
 ##### Developers versions
 
 To download developers versions please use the [libresonic repository]({{ site.repo }}) or simply download the [develop war file]({{ site.repo }}/libresonic-develop.war).

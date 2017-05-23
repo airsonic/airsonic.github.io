@@ -3,7 +3,9 @@ layout: page
 title: Changelog
 permalink: /changelog/
 ---
-## Libresonic changelog
+## Changelog
+
+<a href="/download/" class="float-right"><i class="fa fa-arrow-left fa-fw"></i>Back to the download page</a>
 
 #### v6.2
 
