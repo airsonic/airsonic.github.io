@@ -7,7 +7,7 @@ This guide helps you to migrate your data from Subsonic to Libresonic. It has be
 
 #### Install Libresonic
 
-Install Libresonic as described in the [install guide]({{ site.baseurl }}/docs/install).
+Install Libresonic as described in the [install guide](/docs/install).
 
 #### Migrate to Libresonic
 

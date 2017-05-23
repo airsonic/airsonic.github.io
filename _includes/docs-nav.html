@@ -6,20 +6,20 @@
             {% for item in site.data.docs-nav %}
                 <li>
                     {% if item.subcategories == null %}
-                        <a href="{{ site.baseurl }}{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}</a>
+                        <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}</a>
                     {% else %}
                         <a href="#">{{ item.title }}</a>
                         <ul class="level-two">
                             {% for item in item.subcategories %}
                                 <li>
                                     {% if item.subcategories == null %}
-                                        <a href="{{ site.baseurl }}{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}</a>
+                                        <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}</a>
                                     {% else %}
                                         <a href="#">{{ item.title }}</a>
                                         <ul class="level-three">
                                             {% for item in item.subcategories %}
                                                 <li>
-                                                    <a href="{{ site.baseurl }}{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}</a>
+                                                    <a href="{{ item.href }}" {% if page.url == item.href %}class="active"{% endif %}>{{ item.title }}</a>
                                                 </li>
                                             {% endfor %}
                                         </ul>
