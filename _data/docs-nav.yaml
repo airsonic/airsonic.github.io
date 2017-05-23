@@ -8,10 +8,10 @@
     - title: "WAR"
       href: "/docs/install/war/"
     - title: "Stand-alone"
+      href: "/docs/install/war-standalone/"
 #
 # Build targets not suported yet
 #
-#      href: "/docs/install/war-standalone/"
 #    - title: "DEB"
 #      href: "/docs/install/deb/"
 #    - title: "RPM"
