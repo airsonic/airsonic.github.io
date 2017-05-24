@@ -501,10 +501,13 @@ FOOTER SECTION
     align-content: center;
     border-top: 1px solid $light-grey;
     background: #f1f1f1;
+    p {
+        margin: 0.5rem;
+    }
     a {
-          text-decoration: none;
-          text-align: center;
-          display: block;
+        text-decoration: none;
+        text-align: center;
+        display: block;
     }
 }
 
