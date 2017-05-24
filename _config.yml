@@ -18,7 +18,7 @@ exclude:
 # Vars
 github_url: "https://github.com/Libresonic/libresonic"
 github_website_url: "https://github.com/Libresonic/Libresonic.github.io"
-demo_url: "#"
+demo_url: "https://libresonic.org/libresonic"
 repo: "https://libresonic.org/release"
 
 # Version bump
