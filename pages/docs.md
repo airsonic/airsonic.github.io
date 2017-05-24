@@ -9,7 +9,7 @@ Welcome to the Libresonic documentation. This guide describes installation proce
 
 Before installing Libresonic, you will have to install a working JDK. Follow this [guide](/docs/install/prerequisites/) to install it.
 
-Here you can pick your [installation](/docs/install) docs for:
+Here you can pick your installation docs for:
 - [WAR package (Tomcat)](/docs/install/war)
 - [WAR package (Standalone)](/docs/install/war-standalone)
 
