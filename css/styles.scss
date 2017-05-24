@@ -39,6 +39,7 @@ html {
         font-weight: 400;
         font-family: "Raleway", Helvetica, Arial, sans-serif;
         color: $light-dark;
+        min-width: 400px;
     }
 }
 
@@ -112,6 +113,17 @@ p {
         }
     }
 }
+
+//@media screen and (min-width: 860px) and (max-width: 1280px) {}
+
+@media screen and (max-width: 860px) {
+    .button {
+        padding: 0 10px;
+        font-size: 10px;
+    }
+}
+
+//@media screen and (max-width: 640px) {}
 
 ul, ol {
     padding-left: 1rem;
@@ -208,7 +220,7 @@ HEADER SECTION
             a {
                 font-size: 1.6rem;
                 text-decoration: none;
-                padding: 0.75rem 1rem;
+                padding: 0.75rem 0.75rem;
                 border-radius: 1rem;
                 border: 2px solid;
                 border-color: transparent;
@@ -228,13 +240,32 @@ HEADER SECTION
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
+.toggle, [id^=drop] {
+	display: none;
+    float: right;
+    margin: 1.5rem;
+    text-decoration:none;
+    border:none;
+    cursor: pointer;
+    font-size: 2rem;
+    &:hover {
+        color: $red;
+    }
+}
+
 @media screen and (min-width: 860px) and (max-width: 1280px) {
     #header {
         .wrap {
             margin: 0 2%;
             width: 96%;
-            .menu li + li {
-                margin-left: 0.5rem;
+            .menu {
+                li + li {
+                    margin-left: 0.5rem;
+                }
+                a {
+                    font-size: 1.5rem;
+                    padding: 0.75rem 0.5rem;
+                }
             }
         }
     }
@@ -242,21 +273,51 @@ HEADER SECTION
 
 @media screen and (max-width: 860px) {
     #header {
+        margin-bottom: 1rem;
         .wrap {
             margin: 0;
             width: 100%;
             .title {
                 margin-left: 1rem;
+                float: left;
             }
-            .menu li {
-                margin-left: 0.5rem;
-                & + li {
-                    margin-left: 0rem;
+            .menu {
+                float: right;
+                .toggle {
+                	display: block;
+                }
+                ul {
+                    position: absolute;
+                    top: 4rem;
+                    left: 0;
+                    padding: 0.5rem 0;
+                    display: none;
+                    background: #fff;
+                    width: 100%;
+                    li {
+                        display: list-item;
+                        margin: 0;
+                        padding: 0;
+                        text-align: center;
+                        width: 94%;
+                        margin: 0.5rem 3%;
+                        a {
+                            margin: 0 !important;
+                            display: block;
+                        }
+                    }
+                }
+            }
+            [id^=drop]:checked {
+                & + ul {
+                    display: block;
                 }
             }
         }
     }
 }
+
+//@media screen and (max-width: 640px) {}
 
 /*
 CONTAINER SECTION
@@ -268,7 +329,7 @@ CONTAINER SECTION
     max-width: 960px;
     min-height: 82.5vh;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
     box-sizing: border-box;
     ul, ol {
         margin-left: 1.5rem;
@@ -358,14 +419,15 @@ CONTAINER SECTION
 
 @media (min-width: 400px) {
     .container {
-        width: 85%;
-        padding: 0;
+        width: 98%;
+        padding: 0 5px;
     }
 }
 
-@media (min-width: 550px) {
+@media (min-width: 860px) {
     .container {
-        width: 80%;
+        width: 95%;
+        padding: 0 5px;
     }
     .columns {
         margin-left: 4%;
@@ -416,6 +478,19 @@ CONTAINER SECTION
     display: table;
     clear: both;
 }
+
+//@media screen and (min-width: 860px) and (max-width: 1280px) {}
+
+@media screen and (max-width: 860px) {
+    .container {
+        p {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    }
+}
+
+//@media screen and (max-width: 640px) {}
 
 /*
 DOCS SECTION
@@ -470,6 +545,17 @@ DOCS SECTION
         }
     }
 }
+
+//@media screen and (min-width: 860px) and (max-width: 1280px) {}
+
+@media screen and (max-width: 860px) {
+    #docs-nav-column {
+        position: relative;
+        top: 0;
+    }
+}
+
+//@media screen and (max-width: 640px) {}
 
 #docs-content-column {
     h6 {
