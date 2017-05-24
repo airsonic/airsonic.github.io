@@ -185,13 +185,8 @@ HEADER SECTION
     .wrap {
         margin: 0 10%;
         width: 80%;
-        .title {
-            margin-top: 0.5rem;
-            a {
-                font-weight: 400;
-                font-size: 3rem;
-                text-decoration: none;
-            }
+        .title img {
+            height: 6rem;
         }
         .menu {
             ul {
