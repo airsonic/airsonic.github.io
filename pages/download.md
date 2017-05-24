@@ -8,12 +8,12 @@ permalink: /download/
 <table class="full-width">
   <tbody>
     <tr>
-      <td><i class="fa fa-coffee fa-fw"></i> WAR version (all platforms)</td>
+      <td><i class="fa fa-coffee fa-fw"></i> WAR version (all&nbsp;platforms)</td>
       <td><a href="{{ site.repo }}/libresonic-v{{ site.stable_version }}.war" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
       <td><a class="button" href="/docs/install/war/">Instructions</a></td>
     </tr>
     <tr>
-      <td><i class="fa fa-archive fa-fw"></i> Stand-alone version (all platforms)</td>
+      <td><i class="fa fa-archive fa-fw"></i> Stand-alone version (all&nbsp;platforms)</td>
       <td><a href="{{ site.repo }}/libresonic-v{{ site.stable_version }}.war" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
       <td><a class="button" href="/docs/install/war-standalone/">Instructions</a></td>
     </tr>
