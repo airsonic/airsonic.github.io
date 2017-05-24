@@ -187,6 +187,10 @@ HEADER SECTION
         width: 80%;
         .title img {
             height: 6rem;
+            transition: opacity 0.2s ease;
+            &:hover {
+                opacity: 0.9;
+            }
         }
         .menu {
             ul {
