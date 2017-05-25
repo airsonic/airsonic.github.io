@@ -180,6 +180,16 @@ hr {
     }
 }
 
+.thumbnail {
+    width: 60%;
+    height: auto;
+    transition: opacity 0.2s ease;
+}
+
+.thumbnail:hover {
+    opacity: 0.8;
+}
+
 /*
 HEADER SECTION
 */
@@ -572,6 +582,22 @@ DOCS SECTION
     }
     &.active > a > span > i {
         transform: rotate(-180deg);
+    }
+}
+
+/*
+SCREENSHOTS SECTION
+*/
+
+div#screenshots {
+    text-align: center;
+    a {
+        img {
+            background-color: #000;
+            border: 2px solid $grey;
+            border-radius: 0.5rem;
+            margin: 4rem;
+        }
     }
 }
 

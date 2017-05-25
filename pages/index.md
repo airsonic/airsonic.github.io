@@ -16,6 +16,8 @@ In addition to being a streaming media server, Libresonic works very well as a l
 
 Based on Java technology, Libresonic runs on most platforms, including Windows, Mac, Linux and Unix variants.
 
+To see some screenshots please follow [this link](/screenshots/).
+
 ## History
 
 The original [Subsonic](http://www.subsonic.org/) is developed by [Sindre Mehus](mailto:sindre@activeobjects.no). Subsonic was open source through version 6.0-beta1, and closed-source from then onward.
