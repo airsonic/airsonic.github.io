@@ -202,8 +202,9 @@ HEADER SECTION
     margin-bottom: 6rem;
     background-color: #fff;
     color: $blue;
+    border-bottom: 1px solid transparent;
     z-index: 100;
-    transition: box-shadow 1s ease;
+    transition: box-shadow 0.5s ease, border-bottom 0.5s ease;
     .wrap {
         margin: 0 10%;
         width: 80%;
@@ -247,7 +248,8 @@ HEADER SECTION
 }
 
 .shadows {
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e1e1e1;
 }
 
 .toggle, [id^=drop] {
