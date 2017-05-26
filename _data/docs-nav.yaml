@@ -58,3 +58,6 @@
 
 - title: "Logging"
   href: "/docs/logging/"
+
+- title: "API"
+  href: "/docs/api/"
