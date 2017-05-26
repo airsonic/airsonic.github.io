@@ -1,6 +1,9 @@
 ---
 # Max 3 level navigation
 
+- title: "Getting started"
+  href: "/docs/"
+
 - title: "Install"
   subcategories:
     - title: "Prerequisites"
