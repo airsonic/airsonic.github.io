@@ -29,6 +29,8 @@
       subcategories:
         - title: "FreeBSD/NAS"
           href: "/docs/install/example/freebsd-freenas/"
+        - title: "Raspberry Pi"
+          href: "/docs/install/example/raspberrypi/"
 
 - title: "Configure"
   href: "/docs/configure/"
