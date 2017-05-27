@@ -26,6 +26,8 @@ Libresonic is maintained by [Eugene E. Kashpureff Jr](mailto:eugene@kashpureff.o
 
 Libresonic will strive to maintain compatibility and stability for Subsonic users, including a clean upgrade path. New features and refactoring are welcomed as a Pull Request on Github.
 
+Libresonic software includes Roboto Fonts by Google, distributed under GPLv3. Available as Apache 2.0 from [https://fonts.google.com/specimen/Roboto](https://fonts.google.com/specimen/Roboto).
+
 ## License
 
 Libresonic is free software and licensed under the [GNU General Public License version 3](http://www.gnu.org/copyleft/gpl.html). The code in this repository(and associated binaries) are free of any "license key" or other restrictions. If you wish to thank the maintainer of this repository, please consider a donation to the [Electronic Frontier Foundation](https://supporters.eff.org/donate).
