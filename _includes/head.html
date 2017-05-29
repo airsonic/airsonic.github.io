@@ -1,10 +1,21 @@
 <head>
     <!-- meta -->
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>{% if page.title != 'dummy' %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="identifier-url" content="{{ site.url }}" />
+    <meta name="title" content="{{ site.title }}" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="abstract" content="{{ site.title }}" />
+    <meta name="language" content="en" />
     <meta name="theme-color" content="#2f7bd9">
     <meta name="robots" content="none">
+    <!-- og meta -->
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:image" content="">
+    <meta property="og:description" content="{{ site.description }}">
     <!-- css/fonts -->
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/normalize.css">
