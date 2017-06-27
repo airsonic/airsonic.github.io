@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="libresonic_dark_red_1600x512.svg"
+   sodipodi:docname="libresonic_dark_1600x512.svg"
    inkscape:export-filename="/home/jo/git/libresonic/new_assets/libresonic.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
@@ -29,7 +29,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="646.61455"
+     inkscape:cx="910.90026"
      inkscape:cy="169.32258"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -69,11 +69,9 @@
          id="tspan3957"
          x="11.272274"
          y="254.42696"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:77.4484787px;font-family:Cabin;-inkscape-font-specification:'Cabin, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#2f7bd9;fill-opacity:1;stroke-width:0.26402888px"><tspan
-           style="fill:#d9382f;fill-opacity:1"
-           id="tspan4487">libre</tspan><tspan
-           style="fill:#2d2d2d;fill-opacity:1"
-           id="tspan4770">sonic</tspan></tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:77.4484787px;font-family:Cabin;-inkscape-font-specification:'Cabin, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#2f7bd9;fill-opacity:1;stroke-width:0.26402888px">libre<tspan
+   style="fill:#2d2d2d;fill-opacity:1"
+   id="tspan4770">sonic</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58904457px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2647261px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
