@@ -1,7 +1,7 @@
 <!--
 # README.md
-# Libresonic/libresonic
+# airsonic/airsonic
 -->
-# Libresonic Website
+# Airsonic Website
 
-This is the [Libresonic website](https://libresonic.github.io/) repo.
+This is the [Airsonic website](https://airsonic.github.io/) repo.

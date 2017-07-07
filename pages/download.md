@@ -9,12 +9,12 @@ permalink: /download/
   <tbody>
     <tr>
       <td><i class="fa fa-coffee fa-fw"></i> WAR version (all&nbsp;platforms)</td>
-      <td><a href="{{ site.repo }}/libresonic-v{{ site.stable_version }}.war" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
+      <td><a href="{{ site.repo }}/download/v{{ site.stable_version }}/airsonic-v{{ site.stable_version }}.war" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
       <td><a class="button" href="/docs/install/war/">Instructions</a></td>
     </tr>
     <tr>
       <td><i class="fa fa-archive fa-fw"></i> Stand-alone version (all&nbsp;platforms)</td>
-      <td><a href="{{ site.repo }}/libresonic-v{{ site.stable_version }}.war" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
+      <td><a href="{{ site.repo }}/download/v{{ site.stable_version }}/airsonic-v{{ site.stable_version }}.war" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
       <td><a class="button" href="/docs/install/war-standalone/">Instructions</a></td>
     </tr>
 
@@ -22,22 +22,22 @@ permalink: /download/
 
     <tr>
       <td><i class="fa fa-linux fa-fw"></i> Debian / Ubuntu</td>
-      <td><a href="{{ site.repo }}/libresonic-v{{ site.stable_version }}.deb" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
+      <td><a href="{{ site.repo }}/download/v{{ site.stable_version }}/airsonic-v{{ site.stable_version }}.deb" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
       <td><a class="button" href="/docs/install/deb/">Instructions</a></td>
     </tr>
     <tr>
       <td><i class="fa fa-linux fa-fw"></i> Red Hat / Fedora</td>
-      <td><a href="{{ site.repo }}/libresonic-v{{ site.stable_version }}.rpm" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
+      <td><a href="{{ site.repo }}/download/v{{ site.stable_version }}/airsonic-v{{ site.stable_version }}.rpm" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
       <td><a class="button" href="/docs/install/rpm/">Instructions</a></td>
     </tr>
     <tr>
       <td><i class="fa fa-windows fa-fw"></i> Windows</td>
-      <td><a href="{{ site.repo }}/libresonic-v{{ site.stable_version }}.exe" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
+      <td><a href="{{ site.repo }}/download/v{{ site.stable_version }}/airsonic-v{{ site.stable_version }}.exe" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
       <td><a class="button" href="/docs/install/exe/">Instructions</a></td>
     </tr>
     <tr>
       <td><i class="fa fa-apple fa-fw"></i> MacOS</td>
-      <td><a href="{{ site.repo }}/libresonic-v{{ site.stable_version }}.pkg" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
+      <td><a href="{{ site.repo }}/download/v{{ site.stable_version }}/airsonic-v{{ site.stable_version }}.pkg" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
       <td><a class="button" href="/docs/install/pkg/">Instructions</a></td>
     </tr>
 
@@ -45,7 +45,7 @@ permalink: /download/
 
     <tr>
       <td><i class="fa fa-code fa-fw"></i> Source code</td>
-      <td><a href="https://github.com/Libresonic/libresonic/archive/stable.zip" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
+      <td><a href="https://github.com/airsonic/airsonic/archive/v{{ site.stable_version }}.zip" class="button button-primary"><i class="fa fa-download fa-fw"></i> Download {{ site.stable_version }}</a></td>
       <td><a class="button" href="/docs/install/source/">Instructions</a></td>
     </tr>
   </tbody>
@@ -53,11 +53,11 @@ permalink: /download/
 
 ##### Changelog
 
-Libresonic changelog can be found [here](/changelog/).
+Airsonic changelog can be found [here](/changelog/).
 
 ##### Developers versions
 
-To download developers versions please use the [libresonic repository]({{ site.repo }}) or simply download the [develop war file]({{ site.repo }}/libresonic-develop.war).
+To download developers versions please use the [airsonic repository]({{ site.repo }}) or simply download the [develop war file]({{ site.repo }}/airsonic-develop.war).
 
 #### Terms of use
 

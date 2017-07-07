@@ -1,8 +1,8 @@
 # Site configuration
-title: Libresonic
-email: contact@libresonic.org
-description: "Libresonic is a free, web-based media streamer, providing ubiquitous access to your music."
-url: "https://libresonic.github.io" # base hostname
+title: Airsonic
+email: contact@airsonic.org
+description: "Airsonic is a free, web-based media streamer, providing ubiquitous access to your music."
+url: "https://airsonic.github.io" # base hostname
 baseurl: "" # subpath
 
 # Build settings
@@ -10,10 +10,10 @@ markdown: kramdown
 exclude: [Gemfile, Gemfile.lock, .git*, README.md, LICENSE.txt, CONTRIBUTING.md, PULL_REQUEST_TEMPLATE.md, developer]
 
 # Vars
-github_url: "https://github.com/Libresonic/libresonic"
-github_website_url: "https://github.com/Libresonic/Libresonic.github.io"
-demo_url: "https://libresonic.org/libresonic"
-repo: "https://libresonic.org/release"
+github_url: "https://github.com/airsonic/airsonic"
+github_website_url: "https://github.com/airsonic/airsonic.github.io"
+demo_url: "https://airsonic.org/demo"
+repo: "https://github.com/airsonic/airsonic/releases"
 
 # Version bump
 stable_version: "6.2"
