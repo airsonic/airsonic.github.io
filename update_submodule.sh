@@ -6,5 +6,7 @@ rm -R pages/docs
 mkdir pages/docs
 git submodule init
 git submodule update --remote --merge
+git add pages/docs
+git commit -m "Update docs submodule"
 
 # EOF
