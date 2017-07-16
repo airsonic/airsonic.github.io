@@ -7,7 +7,7 @@ baseurl: "" # subpath
 
 # Build settings
 markdown: kramdown
-exclude: [Gemfile, Gemfile.lock, .git*, README.md, LICENSE.txt, CONTRIBUTING.md, PULL_REQUEST_TEMPLATE.md, developer]
+exclude: [Gemfile, Gemfile.lock, .git*, README.md, LICENSE.txt, CONTRIBUTING.md, PULL_REQUEST_TEMPLATE.md, developer, update_submodule.sh]
 
 # Vars
 github_url: "https://github.com/airsonic/airsonic"
