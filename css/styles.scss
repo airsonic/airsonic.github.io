@@ -365,6 +365,10 @@ CONTAINER SECTION
         background: #f1f1f1;
         border-radius: 0.3rem;
     }
+    p > code {
+        padding: 0.2rem 0.2rem;
+        margin: 0;
+    }
     pre > code {
         display: block;
         padding: 1rem 1.5rem;
