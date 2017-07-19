@@ -16,8 +16,6 @@ In addition to being a streaming media server, Airsonic works very well as a loc
 
 Based on Java technology, Airsonic runs on most platforms, including Windows, Mac, Linux and Unix variants.
 
-To see some screenshots please follow [this link](/screenshots/).
-
 ## History
 
 The original Subsonic is developed by Sindre Mehus. Subsonic was open source through version 6.0-beta1, and closed-source from then onwards.
