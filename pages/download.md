@@ -53,7 +53,7 @@ permalink: /download/
 
 ##### Changelog
 
-Airsonic changelog can be found [here](/changelog/).
+Airsonic changelog can be found [here](https://github.com/airsonic/airsonic/blob/master/CHANGELOG.md).
 
 ##### Developers versions
 
