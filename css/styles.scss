@@ -519,6 +519,9 @@ DOCS SECTION
 */
 
 #docs-nav-column {
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 0;
+    }
     text-align: normal;
     text-justify: normal;
     position: sticky;
@@ -580,6 +583,9 @@ DOCS SECTION
 //@media screen and (max-width: 640px) {}
 
 #docs-content-column {
+    h1, h2 {
+        margin-top: 0;
+    }
     h6 {
         font-size: 2rem;
     }
