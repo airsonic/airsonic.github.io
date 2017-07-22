@@ -27,9 +27,13 @@ See our [patch-welcome list](https://github.com/airsonic/airsonic/issues?q=is%3A
 
 ##### Wanna ask, discuss about airsonic ?
 
-Come to our [IRC Channel](http://webchat.freenode.net?channels=%23airsonic) **#airsonic** if you have any question.
+We have several places outside of github for community discussion, questions, etc:
 
-Or use [Reddit](https://www.reddit.com/r/airsonic) to see popular topics about Airsonic.
+- #airsonic on Matrix - There are several clients, one of which is [riot](https://riot.im/app/#/room/#airsonic:matrix.org).
+- [#airsonic on IRC](http://webchat.freenode.net?channels=%23airsonic)
+- [airsonic subreddit](https://www.reddit.com/r/airsonic)
+
+*Note that the Matrix room and IRC channel are bridged together.*
 
 ##### Translations
 
