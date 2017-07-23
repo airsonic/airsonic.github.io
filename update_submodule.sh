@@ -1,6 +1,6 @@
-#!/bin/bash --posix
+#!/bin/bash
 
-# Be sure to run this script at the airsonic/airsonic.github.io root folder.
+# Be sure to run this script at the airsonic/airsonic.github.io root folder and that your submodule are cloned locally.
 
 pushd pages/docs
 git fetch
