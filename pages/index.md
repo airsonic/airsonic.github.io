@@ -32,6 +32,6 @@ Pull Requests are always welcome. Keep in mind that we strive to balance stabili
 
 Airsonic is free software and licensed under the [GNU General Public License version 3](http://www.gnu.org/copyleft/gpl.html). The code in this repository(and associated binaries) are free of any "license key" or other restrictions. If you wish to thank the maintainers of this repository, please consider a donation to the [Electronic Frontier Foundation](https://supporters.eff.org/donate).
 
-Airsonic software includes Roboto Fonts by Google, distributed under GPLv3. Available as Apache 2.0 from [https://fonts.google.com/specimen/Roboto](https://fonts.google.com/specimen/Roboto).
+Airsonic software includes Roboto Fonts by Google, distributed under GPLv3. Available as Apache 2.0 from [here](https://fonts.google.com/specimen/Roboto).
 
 The [Subsonic source code](https://github.com/airsonic/subsonic-svn) was released under the GPLv3 through version 6.0.beta1. Beginning with 6.0.beta2, source is no longer provided. Binaries of Subsonic are only available under a commercial license. There is a [Subsonic Premium](http://www.subsonic.org/pages/premium.jsp) service which adds functionality not available in Airsonic. Subsonic also offers RPM, Deb, Exe, and other pre-built packages that Airsonic [currently does not](https://github.com/airsonic/airsonic/issues/65).
