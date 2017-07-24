@@ -59,7 +59,7 @@ Airsonic changelog can be found [here](https://github.com/airsonic/airsonic/blob
 
 To download beta versions please use the [airsonic repository]({{ site.repo }}) or directly [download latest beta war file]({{ site.repo }}).
 
-{{ site.github.project_title }}
+{{ site.github.html_url }}
 
 #### Terms of use
 
