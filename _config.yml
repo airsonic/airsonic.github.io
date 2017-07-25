@@ -14,7 +14,7 @@ repository: airsonic/airsonic
 # Vars
 github_url: "https://github.com/airsonic/airsonic"
 github_website_url: "https://github.com/airsonic/airsonic.github.io"
-demo_url: "https://airsonic.org/demo"
+demo_url: ""
 repo: "https://github.com/airsonic/airsonic/releases"
 
 # Version bump
