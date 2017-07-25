@@ -1,6 +1,5 @@
 # Site configuration
 title: Airsonic
-email: contact@airsonic.org
 description: "Airsonic is a free, web-based media streamer, providing ubiquitous access to your music."
 url: "https://airsonic.github.io" # base hostname
 baseurl: "" # subpath
