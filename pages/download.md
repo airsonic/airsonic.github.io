@@ -59,6 +59,14 @@ Airsonic changelog can be found [here](https://github.com/airsonic/airsonic/blob
 
 To download beta/snapshot versions please use the [airsonic repository]({{ site.repo }}).
 
+{% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
+
+{% for release in site.github.releases %}
+  * [{{ release.name }}]({{ release.html_url }})
+{% endfor %}
+
 #### Terms of use
 
 This program is distributed in the hope that it will be useful, but **without and warranty**; without even the implied warranty of **merchant ability** or **fitness for a particular purpose**. See the [GNU General Public License](http://www.gnu.org/copyleft/gpl.html) for more details.
