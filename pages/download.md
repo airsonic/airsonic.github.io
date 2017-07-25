@@ -55,9 +55,9 @@ permalink: /download/
 
 Airsonic changelog can be found [here](https://github.com/airsonic/airsonic/blob/master/CHANGELOG.md).
 
-##### Beta versions
+##### Beta/Snapshot versions
 
-To download beta versions please use the [airsonic repository]({{ site.repo }}) or directly [download latest beta war file]({{ site.repo }}).
+To download beta/snapshot versions please use the [airsonic repository]({{ site.repo }}).
 
 #### Terms of use
 
