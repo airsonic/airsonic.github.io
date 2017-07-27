@@ -32,6 +32,9 @@
         - title: "Raspberry Pi"
           href: "/docs/install/example/raspberrypi/"
 
+- title: "First start"
+  href: "/docs/first-start/"
+
 - title: "Configure"
   href: "/docs/configure/"
 
