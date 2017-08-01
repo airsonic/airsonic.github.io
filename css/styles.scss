@@ -234,12 +234,12 @@ HEADER SECTION
                 border-color: transparent;
                 transition: border-color 0.2s ease-in-out;
                 &:hover {
-                    border-color: $red;
+                    border-color: $blue;
                 }
                 &.active {
                     border-color: $light-grey;
                     &:hover {
-                        border-color: $red;
+                        border-color: $blue;
                     }
                 }
             }
