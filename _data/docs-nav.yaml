@@ -36,7 +36,15 @@
   href: "/docs/first-start/"
 
 - title: "Configure"
-  href: "/docs/configure/"
+  subcategories:
+    - title: "Introduction"
+      href: "/docs/configure/introduction/"
+    - title: "Airsonic properties"
+      href: "/docs/configure/airsonic-properties/"
+    - title: "Standalone"
+      href: "/docs/configure/standalone/"
+    - title: "Tomcat"
+      href: "/docs/configure/tomcat/"
 
 - title: "Proxy"
   subcategories:
