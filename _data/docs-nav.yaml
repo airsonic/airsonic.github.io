@@ -10,8 +10,11 @@
       href: "/docs/install/prerequisites/"
     - title: "WAR"
       href: "/docs/install/war/"
+    - title: "Docker"
+      href: "/docs/install/docker/"
     - title: "Stand-alone"
       href: "/docs/install/war-standalone/"
+
 #
 # Build targets not suported yet
 #
