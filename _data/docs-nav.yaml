@@ -8,11 +8,11 @@
   subcategories:
     - title: "Prerequisites"
       href: "/docs/install/prerequisites/"
-    - title: "WAR"
+    - title: "Tomcat WAR"
       href: "/docs/install/war/"
     - title: "Docker"
       href: "/docs/install/docker/"
-    - title: "Stand-alone"
+    - title: "Stand-alone WAR"
       href: "/docs/install/war-standalone/"
 
 #
