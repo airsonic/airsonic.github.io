@@ -18,4 +18,4 @@ demo_url: ""
 repo: "https://github.com/airsonic/airsonic/releases"
 
 # Version bump
-stable_version: "10.0.0"
+stable_version: "10.0.1"
