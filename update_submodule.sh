@@ -5,6 +5,7 @@
 pushd pages/docs
 git fetch
 git checkout master
+git pull
 popd
 git add pages/docs
 git commit -m 'Update docs submodule'
