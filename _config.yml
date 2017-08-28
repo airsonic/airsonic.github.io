@@ -14,6 +14,7 @@ repository: airsonic/airsonic
 # Vars
 github_url: "https://github.com/airsonic/airsonic"
 github_website_url: "https://github.com/airsonic/airsonic.github.io"
+github_docs_url: "https://github.com/airsonic/documentation"
 demo_url: ""
 repo: "https://github.com/airsonic/airsonic/releases"
 
