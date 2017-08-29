@@ -12,6 +12,7 @@ Before installing Airsonic, you will have to install a working JDK. Follow this 
 Here you can pick your installation docs for:
 - [WAR package (Tomcat)](/docs/install/war)
 - [WAR package (Standalone)](/docs/install/war-standalone)
+- [Docker container](/docs/install/docker)
 
 {% comment %} Build targets not suported yet
 
