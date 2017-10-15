@@ -70,9 +70,9 @@
   href: "/docs/transcode/"
 
 - title: "Metadata"
-  subcategories:
+  subcategories:                                                                                         
     - title: "FFprobe"
-    - href: "/docs/metadata/ffprobe/"
+      href: "/docs/metadata/ffprobe/"
 
 - title: "LDAP"
   href: "/docs/ldap/"
