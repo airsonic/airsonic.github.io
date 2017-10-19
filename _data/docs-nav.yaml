@@ -26,8 +26,8 @@
 #      href: "/docs/install/exe/"
 #    - title: "PKG"
 #      href: "/docs/install/pkg/"
-#    - title: "Source"
-#      href: "/docs/install/source/"
+    - title: "Source"
+      href: "/docs/install/source/"
     - title: "Example"
       subcategories:
         - title: "FreeBSD/NAS"
