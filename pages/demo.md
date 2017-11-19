@@ -7,10 +7,11 @@ permalink: /demo/
 
 Sadly, we currently don't provide any demo of airsonic, still some screenshots are available.
 
-We are looking for an Airsonic instance with some __free__ albums on it ! A link to it could be added on this page.
+We are looking for users that would share an Airsonic demo instance with __free__ albums on it ! A link to it could be added on this page.
 
 Please contact us using a [github issue](https://github.com/airsonic/airsonic/issues) or on the [community channels](/contribute/#wanna-ask-discuss-about-airsonic-).
 
+{% include demo-screenshots.html %}
 
 ## Airsonic new UI
 

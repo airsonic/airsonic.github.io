@@ -180,6 +180,11 @@ hr {
     }
 }
 
+// This removes the to border from the fancybox caption
+.fancybox-caption {
+  border: 0;
+}
+
 .thumbnail {
     width: 60%;
     height: auto;
