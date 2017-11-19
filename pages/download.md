@@ -13,7 +13,7 @@ Airsonic changelog can be found [here](https://github.com/airsonic/airsonic/blob
 
 ##### Beta/Snapshot versions
 
-To download beta/snapshot versions please use the [airsonic repository]({{ site.repo }}).
+To use beta/snapshot versions please build airsonic from the master branch in the [github repository]({{ site.github_url }}).
 
 #### Terms of use
 
