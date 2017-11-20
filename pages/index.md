@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: main-page
 title: 'dummy'
 permalink: /
 ---
