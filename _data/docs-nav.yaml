@@ -14,6 +14,8 @@
       href: "/docs/install/war-standalone/"
     - title: "Source"
       href: "/docs/install/source/"
+    - title: "Homebrew"
+      href: "/docs/install/homebrew/"
     - title: "Docker"
       href: "/docs/install/docker/"
     - title: "Example"
