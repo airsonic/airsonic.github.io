@@ -352,6 +352,7 @@ BANNER SECTION
         min-width: 400px;
         object-fit: cover;
         background-color: $grey;
+        opacity: 0.8;
     }
     #banner-title {
         position: sticky;
@@ -379,7 +380,7 @@ CONTAINER SECTION
 */
 
 .container-background {
-    margin-top: 94vh;
+    margin-top: 50vh;
     width: 100%;
     background: white;
     padding: 1em 0;
