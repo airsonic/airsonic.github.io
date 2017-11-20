@@ -223,6 +223,7 @@ HEADER SECTION
                 margin-left: 2rem;
             }
             a {
+                opacity: 1;
                 font-size: 1.6rem;
                 color: $light-grey;
                 text-decoration: none;
@@ -662,9 +663,11 @@ FOOTER SECTION
     background: #f1f1f1;
     opacity: 0.8;
     p {
+        opacity: 1;
         margin: 0.5rem;
     }
     a {
+        opacity: 1;
         text-decoration: none;
         text-align: center;
         display: inline-block;
