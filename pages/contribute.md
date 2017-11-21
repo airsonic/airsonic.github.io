@@ -19,13 +19,13 @@ The documentation is actually not really well documented, so any contributions i
 
 See our documentation [contributing guide](https://github.com/airsonic/documentation/blob/master/CONTRIBUTING.md).
 
-##### Submit a patch ?!
+##### Submit a patch?!
 
 If you want to code a little patch for use, you are pleased to do so !
 
 See our [patch-welcome list](https://github.com/airsonic/airsonic/issues?q=is%3Aissue+is%3Aopen+label%3Apatches-welcome) on github.
 
-##### Wanna ask, discuss about airsonic ?
+##### Wanna ask, discuss about airsonic?
 
 We have several places outside of github for community discussion, questions, etc:
 
