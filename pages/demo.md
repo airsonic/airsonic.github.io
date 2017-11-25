@@ -5,11 +5,13 @@ permalink: /demo/
 ---
 ## Airsonic demo
 
-Sadly, we currently don't provide any demo of airsonic, still some screenshots are available.
+Here is a list of unofficial demo holded by members of the airsonic community:
 
-We are looking for users that would share an Airsonic demo instance with __free__ albums on it ! A link to it could be added on this page.
+> [airsonic.etowns.net/demo](https://airsonic.etowns.net/demo)
 
-Please contact us using a [github issue](https://github.com/airsonic/airsonic/issues) or on the [community channels](/contribute/#wanna-ask-discuss-about-airsonic).
+- Username : `guest`
+- Password : `guestpass`
+- Hosted by Joola
 
 {% include demo-screenshots.html %}
 
