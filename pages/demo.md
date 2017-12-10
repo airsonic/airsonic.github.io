@@ -4,7 +4,7 @@ title: Demo
 permalink: /demo/
 ---
 ## Airsonic demo
-
+<!-- TEMPORARY disable demo while I do some clean up on my server
 Here is a list of unofficial demo holded by members of the airsonic community:
 
 > [airsonic.etowns.net/demo](https://airsonic.etowns.net/demo)
@@ -12,7 +12,7 @@ Here is a list of unofficial demo holded by members of the airsonic community:
 - Username : `guest`
 - Password : `guestpass`
 - Hosted by Joola
-
+-->
 {% include demo-screenshots.html %}
 
 ## Airsonic new UI
