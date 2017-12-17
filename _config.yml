@@ -1,6 +1,6 @@
 # Site configuration
 title: Airsonic
-description: "Airsonic is a free, web-based media streamer, providing ubiquitous access to your music."
+description: "Airsonic, a Free and Open Source community driven media server, providing ubiquitous access to your music."
 url: "https://airsonic.github.io" # base hostname
 baseurl: "" # subpath
 
@@ -19,4 +19,4 @@ demo_url: ""
 repo: "https://github.com/airsonic/airsonic/releases"
 
 # Version bump
-stable_version: "10.1.0"
+stable_version: "10.1.1"
