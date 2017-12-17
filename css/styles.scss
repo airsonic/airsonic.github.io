@@ -226,17 +226,22 @@ HEADER SECTION
                 color: $light-grey;
                 text-decoration: none;
                 padding: 0.5rem 0.25rem;
-                border-bottom: 3px solid;
-                border-color: transparent;
-                transition: border-color 0.2s ease-in-out;
-                &:hover {
-                    border-color: $blue;
+                &::after {
+                  content: "";
+                  display: block;
+                  width: 0%;
+                  border-bottom: 3px solid $blue;
+                  margin: 4px auto;
+                  transition: width 0.2s ease-in-out, border-color 0.2s ease-in-out;
                 }
-                &.active {
-                    border-color: $light-grey;
-                    &:hover {
-                        border-color: $blue;
-                    }
+                &:hover:after, &.active::after {
+                  width: 100%;
+                }
+                &.active::after {
+                  border-bottom-color: $light-grey;
+                }
+                &.active:hover:after {
+                  border-bottom-color: $blue;
                 }
             }
         }
@@ -658,7 +663,7 @@ FOOTER SECTION
     text-align: center;
     align-content: center;
     border-top: 1px solid $light-grey;
-    background: rgba(245, 245, 245, 0.8);
+    background: rgba(245, 245, 245, 1);
     p {
         margin: 0.5rem;
     }
