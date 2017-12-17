@@ -213,7 +213,7 @@ HEADER SECTION
                 list-style: none;
                 margin: 0;
                 padding: 0;
-                margin-top: 1.75rem;
+                margin-top: 1.25rem;
             }
             li {
                 display: inline-block;
@@ -222,6 +222,7 @@ HEADER SECTION
                 margin-left: 2rem;
             }
             a {
+                display: block;
                 font-size: 1.6rem;
                 color: $light-grey;
                 text-decoration: none;
@@ -231,7 +232,7 @@ HEADER SECTION
                   display: block;
                   width: 0%;
                   border-bottom: 3px solid $blue;
-                  margin: 4px auto;
+                  margin: 0.90em auto 0 auto;
                   transition: width 0.2s ease-in-out, border-color 0.2s ease-in-out;
                 }
                 &:hover:after, &.active::after {
@@ -263,7 +264,7 @@ HEADER SECTION
     cursor: pointer;
     font-size: 2rem;
     &:hover {
-        color: $red;
+        color: $blue;
     }
 }
 
