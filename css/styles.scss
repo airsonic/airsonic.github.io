@@ -47,6 +47,7 @@ a {
     color: $blue;
     transition: color 0.2s ease;
     text-decoration: none;
+    outline: 0;
     &:hover {
         color: $red;
     }
