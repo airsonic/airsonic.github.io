@@ -34,6 +34,8 @@
       href: "/docs/configure/introduction/"
     - title: "Airsonic properties"
       href: "/docs/configure/airsonic-properties/"
+    - title: "Jukebox"
+      href: "/docs/configure/Jukebox/"
     - title: "Standalone"
       href: "/docs/configure/standalone/"
     - title: "Tomcat"
