@@ -6,6 +6,11 @@
 
 This is the [Airsonic website](https://airsonic.github.io/) repo.
 
+- Clone the website repo `git clone https://github.com/airsonic/airsonic.github.io`.
+- Change directory into the cloned repo `cd airsonic.github.io`.
+- Clone the documentation submodule `git clone https://github.com/airsonic/documentation pages/docs`.
+- Install [Jekyll](https://jekyllrb.com/).
+- Run jekyll serve --watch.
 
 ### Media sources
 
