@@ -6,6 +6,8 @@
 
 This is the [Airsonic website](https://airsonic.github.io/) repo.
 
+## Getting started
+
 - Clone the website repo `git clone https://github.com/airsonic/airsonic.github.io`.
 - Change directory into the cloned repo `cd airsonic.github.io`.
 - Clone the documentation submodule `git clone https://github.com/airsonic/documentation pages/docs`.
