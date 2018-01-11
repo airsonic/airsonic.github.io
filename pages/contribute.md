@@ -37,6 +37,4 @@ We have several places outside of github for community discussion, questions, et
 
 ##### Translations
 
-We provide a [platform](https://hosted.weblate.org/projects/airsonic/develop/) to translate Airsonic in more than 25 languages.
-
-Thanks to Weblate for hosting the translations platform !
+A [Transifex repo](https://www.transifex.com/airsonic/airsonic/) has been set up to help translate Airsonic in more than 25 languages.
