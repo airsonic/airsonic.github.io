@@ -5,13 +5,7 @@ permalink: /demo/
 ---
 ## Airsonic demo
 
-Here is a list of unofficial demo holded by members of the airsonic community:
-
-> [airsonic.etowns.net/demo](https://airsonic.etowns.net/demo)
-
-- Username : `guest`
-- Password : `guest`
-- Hosted by Joola
+Sadly we don't provide any official demo, if you want to add one just find us on the community channels and we will set this up !
 
 {% include demo-screenshots.html %}
 
