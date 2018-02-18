@@ -59,6 +59,9 @@
 - title: "Transcode"
   href: "/docs/transcode/"
 
+- title: "Jukebox"
+  href: "/docs/jukebox/"
+
 - title: "Metadata"
   subcategories:
     - title: "FFprobe"
