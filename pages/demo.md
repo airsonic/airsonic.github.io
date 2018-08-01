@@ -19,4 +19,4 @@ A demo is available here, you just need to enter you server address and your cre
 
 If you want to contribute please come to our [github repository](https://github.com/airsonic/airsonic-ui).
 
-<a href="/airsonic-ui/" class="button button-primary full-width">Airsonic new UI</a>
+<a href="{{ site.baseurl }}/airsonic-ui/" class="button button-primary full-width">Airsonic new UI</a>
