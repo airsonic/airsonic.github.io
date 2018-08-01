@@ -1,7 +1,4 @@
-# Gemfile disabled for work
-Gemfile
-
-# Jekyll
+# ---> Jekyll
+_site/
+.sass-cache/
 .jekyll-metadata
-_site
-Gemfile.lock
