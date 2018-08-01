@@ -2,5 +2,6 @@
 Gemfile
 
 # Jekyll
+.jekyll-metadata
 _site
 Gemfile.lock

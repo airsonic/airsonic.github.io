@@ -11,8 +11,9 @@ This is the [Airsonic website](https://airsonic.github.io/) repo.
 - Clone the website repo `git clone https://github.com/airsonic/airsonic.github.io`.
 - Change directory into the cloned repo `cd airsonic.github.io`.
 - Clone the documentation submodule `git clone https://github.com/airsonic/documentation pages/docs`.
-- Install [Jekyll](https://jekyllrb.com/).
-- Run jekyll serve --watch.
+- Install `ruby` and [`bundler`](https://bundler.io/) (`gem install bundler`).
+- Install local dependencies: `bundler install`
+- Run `bundler exec jekyll serve --watch`.
 
 ### Media sources
 
