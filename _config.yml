@@ -5,8 +5,16 @@ url: "https://airsonic.github.io" # base hostname
 baseurl: "" # subpath
 
 # Build settings
+source: src
 markdown: kramdown
-exclude: [Gemfile, Gemfile.lock, .git*, README.md, LICENSE.txt, CONTRIBUTING.md, PULL_REQUEST_TEMPLATE.md, developer, update_submodule.sh]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .git*
+  - README.md
+  - LICENSE.txt
+  - developer
+  - update_submodule.sh
 
 # Github metadata
 repository: airsonic/airsonic
