@@ -5,7 +5,6 @@ url: "https://airsonic.github.io" # base hostname
 baseurl: "" # subpath
 
 # Build settings
-source: src
 markdown: kramdown
 exclude:
   - Gemfile
