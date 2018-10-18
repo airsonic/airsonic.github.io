@@ -17,7 +17,7 @@ If not get the information needed for a bug report and write us a new issue to o
 
 The documentation is actually not really well documented, so any contributions is welcomed.
 
-See our documentation [contributing guide](https://github.com/airsonic/documentation/blob/master/CONTRIBUTING.md).
+See our documentation [contributing guide](https://github.com/airsonic/documentation/blob/master/.github/CONTRIBUTING.md).
 
 ##### Submit a patch?!
 
