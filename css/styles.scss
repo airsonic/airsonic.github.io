@@ -363,7 +363,7 @@ CONTAINER SECTION
 .container {
     position: relative;
     width: 100%;
-    max-width: 960px;
+    max-width: 1200px;
     min-height: 82.5vh;
     margin: 0 auto;
     margin-bottom: 4rem;
@@ -608,6 +608,10 @@ DOCS SECTION
     }
     h6 {
         font-size: 2rem;
+    }
+    img {
+      box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+      max-width: 100%;
     }
 }
 
