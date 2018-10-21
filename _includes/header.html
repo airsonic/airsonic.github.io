@@ -6,37 +6,37 @@
         </a>
     </div>
     <nav class="menu float-right">
-      <label for="drop" class="toggle"><i class="fa fa-bars"></i></label>
+      <label for="drop" class="toggle"><i class="fas fa-bars fa-fw"></i></label>
       <input type="checkbox" id="drop"/>
       <ul>
         <li>
           <a href="{{ site.baseurl }}/"
            {% if page.url == "/" %}class="active"{% endif %}>
-         <i class="fa fa-home fa-fw"></i>&nbsp;About</a>
+         <i class="fas fa-home fa-fw"></i>&nbsp;About</a>
         </li>
         <li>
           <a href="{{ site.baseurl }}/download/"
           {% if page.url == "/download/" %}class="active"{% endif %}>
-          <i class="fa fa-download fa-fw"></i>&nbsp;Download</a>
+          <i class="fas fa-download fa-fw"></i>&nbsp;Download</a>
         </li>
         <li>
           <a href="{{ site.baseurl }}/docs/"
           {% if page.url == "/docs/" or page.url contains "/docs/" %}class="active"{% endif %}>
-          <i class="fa fa-book fa-fw"></i>&nbsp;Documentation</a>
+          <i class="fas fa-book-open fa-fw"></i>&nbsp;Documentation</a>
         </li>
         <li>
           <a href="{{ site.baseurl }}/contribute/"
           {% if page.url == "/contribute/" or page.url contains "/contribute/" %}class="active"{% endif %}>
-          <i class="fa fa-pencil-square-o fa-fw"></i>&nbsp;Contribute</a>
+          <i class="far fa-edit fa-fw"></i>&nbsp;Contribute</a>
         </li>
         <li>
           <a href="{{ site.baseurl }}/demo/"
           {% if page.url == "/demo/" or page.url contains "/demo/" %}class="active"{% endif %}>
-          <i class="fa fa-cog fa-fw"></i>&nbsp;Demo</a>
+          <i class="fas fa-cog fa-fw"></i>&nbsp;Demo</a>
         </li>
         <li>
           <a href="{{ site.github_url }}">
-          <i class="fa fa-github fa-fw"></i>&nbsp;GitHub</a>
+          <i class="fab fa-github fa-fw"></i>&nbsp;GitHub</a>
         </li>
       </ul>
     </nav>
