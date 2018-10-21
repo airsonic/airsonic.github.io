@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    <div class="container-banner">
+      <img id="banner" src="{{ site.baseurl }}/img/album-wall_small.jpg" alt="">
+      <div class="container">
+        {{ content }}
+      </div>
+    </div>
+    {% include footer.html %}
+
+  </body>
+</html>
