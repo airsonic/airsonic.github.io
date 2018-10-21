@@ -10,7 +10,7 @@ This is the [Airsonic website](https://airsonic.github.io/) repo.
 
 - Clone the website repo `git clone https://github.com/airsonic/airsonic.github.io`.
 - Change directory into the cloned repo `cd airsonic.github.io`.
-- Clone the documentation submodule `git clone https://github.com/airsonic/documentation pages/docs`.
+- Clone the documentation submodule `git clone https://github.com/airsonic/documentation docs`.
 - Install `ruby` and [`bundler`](https://bundler.io/) (`gem install bundler`).
 - Install local dependencies: `bundler install`
 - Run `bundler exec jekyll serve --watch`.
@@ -19,7 +19,7 @@ This is the [Airsonic website](https://airsonic.github.io/) repo.
 
 Please see [this guide](https://github.com/airsonic/documentation/blob/master/.github/CONTRIBUTING.md) for any contribution.
 
-Use _update_submodule.sh_ to update the submodule [page/docs](https://github.com/airsonic/documentation).
+Use _update_submodule.sh_ to update the submodule [docs](https://github.com/airsonic/documentation).
 
 ### Media sources
 
