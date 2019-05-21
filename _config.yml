@@ -25,5 +25,5 @@ demo_url: ""
 repo: "https://github.com/airsonic/airsonic/releases"
 
 # Version bump
-stable_version: "10.2.1"
+stable_version: "10.3.0"
 subsonic_api_version: "1.15.0"
