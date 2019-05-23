@@ -34,7 +34,3 @@ We have several places outside of github for community discussion, questions, et
 - [airsonic subreddit](https://www.reddit.com/r/airsonic)
 
 *Note that the Matrix room and IRC channel are bridged together.*
-
-##### Translations
-
-A [Transifex repo](https://www.transifex.com/airsonic/airsonic/) has been set up to help translate Airsonic in more than 25 languages.
