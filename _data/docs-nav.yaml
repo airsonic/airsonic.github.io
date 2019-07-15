@@ -39,6 +39,9 @@
     - title: "Tomcat"
       href: "/docs/configure/tomcat/"
 
+- title: "Update"
+  href: "/docs/update/"
+
 - title: "Proxy"
   subcategories:
     - title: "Prerequisites"
