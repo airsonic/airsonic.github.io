@@ -15,6 +15,14 @@ This is the [Airsonic website](https://airsonic.github.io/) repo.
 - Install local dependencies: `bundler install`
 - Run `bundler exec jekyll serve --watch`.
 
+The above wrapped into a little script (it assume you have bundler installed):
+```sh
+git clone https://github.com/airsonic/airsonic.github.io && \
+cd airsonic.github.io && \
+git clone https://github.com/airsonic/airsonic-docs docs && \
+bundler install
+```
+
 ## Contributing
 
 Please see [this guide](https://github.com/airsonic/airsonic-docs/blob/master/.github/CONTRIBUTING.md) for any contribution.
