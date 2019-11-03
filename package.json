@@ -1,0 +1,27 @@
+{
+  "name": "airsonic.github.io",
+  "version": "1.0.0",
+  "description": "Airsonic project website",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airsonic/airsonic.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/airsonic/airsonic.github.io/issues"
+  },
+  "homepage": "https://github.com/airsonic/airsonic.github.io#readme",
+  "dependencies": {
+    "@vuepress/plugin-active-header-links": "^1.2.0",
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-last-updated": "^1.2.0",
+    "@vuepress/plugin-medium-zoom": "^1.2.0",
+    "@vuepress/plugin-nprogress": "^1.2.0",
+    "@vuepress/plugin-search": "^1.2.0",
+    "markdown-it-vuepress-code-snippet-enhanced": "^1.0.1",
+    "vuepress": "^1.2.0"
+  }
+}

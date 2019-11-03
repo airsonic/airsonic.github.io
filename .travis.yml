@@ -1,0 +1,23 @@
+language: node_js
+
+node_js:
+  - lts/*
+
+env:
+  global:
+    secure: Wuc72FcnmEJJcsITS/9iutisYJqUhErfzMufT3R6FxR7WlQJMkMwmlwNj42c64++AOaNkHncPvv2Hxw+gxBapX3q1tVlhYvzKbo5yqJwaAEuLHsCfGk4bSAEIxUO3d12FAOL0gi2MKkAG9jtNCgyH6E+ppwO9dG8GAbb4pfVy8diop8JsKIuTwno1didgPoifgX62fVQ6elKQ8ckfeOWOzxbDowRMHKfL1GYoOsjfb0d7r5abAsLgG6FUvzqFWs6+HPVtm/ZU8SfINslg72WKXXrObkQtxNzInCQRycs6KZXX7FjLUHpgaQf51wRCPdAYIcxLXURGuUVA+58zyWV8m/webRyr69dhH3IBhNuZa26IYGJIZK5YbbdpXHYXxSeAAG8Luuq43vcrVb0LVlk6VC6z8y2lnwhDRLjlAPonFk9RobSzfNKgCuDKvmwQ5CZ6MBGqk14HNUY9HEP36oim1SB1Ji9HLukGh4sz62flAFXbV54+O78X/91U2qXMCxGz2KUKTvtophznbH1aeXrBe1hLugYF0612nZ8gI9Ts0rXBRq65WbQcpkG5tmNYV9hdpwFvCcyguvZajMP8ivXIXJgsPwfdMSbWI9psGTE2acNhK0MucjNXQIPPgFjycsJOTcYFxRrH09TjmgUCWie/SO0S05/CnSswLwazRYYgnE=
+
+install:
+  - npm ci
+
+script:
+  - npm run build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  local_dir: src/.vuepress/dist
+  github-token: "$GITHUB_TOKEN"
+  keep-history: true
+  on:
+    branch: master

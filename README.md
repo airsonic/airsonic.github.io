@@ -1,34 +1,17 @@
-<!--
-# README.md
-# airsonic/airsonic
--->
-# Airsonic Website
+# Airsonic website / documentation
+
+[![Build Status](https://api.travis-ci.org/airsonic/airsonic.github.io.svg?branch=master)](https://travis-ci.org/airsonic/airsonic.github.io)
 
 This is the [Airsonic website](https://airsonic.github.io/) repo.
 
-## Getting started
+## Website development
 
-- Clone the website repo `git clone https://github.com/airsonic/airsonic.github.io`.
-- Change directory into the cloned repo `cd airsonic.github.io`.
-- Clone the documentation submodule `git clone https://github.com/airsonic/airsonic-docs docs`.
-- Install `ruby` and [`bundler`](https://bundler.io/) (`gem install bundler`).
-- Install local dependencies: `bundler install`
-- Run `bundler exec jekyll serve --watch`.
+The website is based on Vuepress. In order to get it running for development do the following:
 
-The above wrapped into a little script (it assume you have bundler installed):
-```sh
-git clone https://github.com/airsonic/airsonic.github.io && \
-cd airsonic.github.io && \
-git clone https://github.com/airsonic/airsonic-docs docs && \
-bundler install
-```
+- Clone the git repo: `git clone https://github.com/airsonic/airsonic.github.io`
+- Install node dependencies: `npm install`
+- Run vuepress development server: `npm run dev`
 
 ## Contributing
 
 Please see [this guide](https://github.com/airsonic/airsonic-docs/blob/master/.github/CONTRIBUTING.md) for any contribution.
-
-Use _update_submodule.sh_ to update the submodule [docs](https://github.com/airsonic/airsonic-docs).
-
-### Media sources
-
-- [Main page background picture](https://airsonic.github.io/img/album-wall.jpg) is distributed under Creative Commons 2.0 license. All right reserved to __Heath Alseike__ for his pictures available on [flickr](https://www.flickr.com/photos/99624358@N00/5506222889/).__Really nice album wall picture by the way !__
