@@ -88,3 +88,7 @@
   subcategories:
     - title: "Setup IntelliJ"
       href: "/docs/developer/intellij/"
+    - title: "Using Maven"
+      href: "/docs/developer/maven/"
+    - title: "Performance tests"
+      href: "/docs/developer/performance/"
