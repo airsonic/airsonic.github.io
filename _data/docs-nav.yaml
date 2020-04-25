@@ -4,6 +4,9 @@
 - title: "Getting started"
   href: "/docs/"
 
+- title: "Migrate from Subsonic"
+  href: "/docs/migrate/"
+
 - title: "Install"
   subcategories:
     - title: "Prerequisites"
@@ -52,37 +55,40 @@
       href: "/docs/proxy/nginx/"
     - title: "HAproxy"
       href: "/docs/proxy/haproxy/"
-
-- title: "Migrate"
-  href: "/docs/migrate/"
+    - title: "Caddy"
+      href: "/docs/proxy/caddy/"
 
 - title: "Database"
   href: "/docs/database/"
 
-- title: "Transcode"
-  href: "/docs/transcode/"
-
-- title: "Jukebox"
-  href: "/docs/jukebox/"
-
-- title: "Metadata"
+- title: "Media"
   subcategories:
-    - title: "FFprobe"
+    - title: "Transcode"
+      href: "/docs/transcode/"
+    - title: "Jukebox"
+      href: "/docs/jukebox/"
+    - title: "Ffprobe"
       href: "/docs/metadata/ffprobe/"
-
-- title: "LDAP"
-  href: "/docs/ldap/"
 
 - title: "Apps"
   href: "/docs/apps/"
 
-- title: "Logging"
-  href: "/docs/logging/"
-
-- title: "API"
-  href: "/docs/api/"
+- title: "Advanced"
+  subcategories:
+    - title: "LDAP"
+      href: "/docs/ldap/"
+    - title: "Logging"
+      href: "/docs/logging/"
+    - title: "API"
+      href: "/docs/api/"
+    - title: "Captcha"
+      href: "/docs/captcha/"
 
 - title: "Developer"
   subcategories:
-    - title: "Setup Intellij"
+    - title: "Setup IntelliJ"
       href: "/docs/developer/intellij/"
+    - title: "Using Maven"
+      href: "/docs/developer/maven/"
+    - title: "Performance tests"
+      href: "/docs/developer/performance/"
