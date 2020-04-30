@@ -21,6 +21,8 @@
       href: "/docs/install/homebrew/"
     - title: "Docker"
       href: "/docs/install/docker/"
+    - title: "Windows"
+      href: "/docs/install/windows/"
     - title: "Example"
       subcategories:
         - title: "FreeBSD/NAS"
@@ -57,6 +59,8 @@
       href: "/docs/proxy/haproxy/"
     - title: "Caddy"
       href: "/docs/proxy/caddy/"
+    - title: "IIS"
+      href: "/docs/proxy/iis/"
 
 - title: "Database"
   href: "/docs/database/"
